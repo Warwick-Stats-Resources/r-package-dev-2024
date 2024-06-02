@@ -9,35 +9,35 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "R Packages Developement Workshop",
+    "title": "R Packages Development Workshop",
     "section": "",
-    "text": "Welcome to the R Packages Workshop!\nThis is a two-day workshop, taking place at The University of Warwick, June 27th-27th, 2024.\nIt is aimed primarily at graduate students in the Department of Statistics, but open to all interested members of the university, space permitting.\nPlease see the join page for details on how to sign-up for the course."
+    "text": "Welcome to the R Packages Development Workshop!\nThis is a two-day workshop, taking place at The University of Warwick, June 27th-27th, 2024.\nIt is aimed primarily at graduate students in the Department of Statistics, but open to all interested members of the university, space permitting.\nPlease see the join page for details on how to sign-up for the course."
   },
   {
     "objectID": "index.html#syllabus-overview",
     "href": "index.html#syllabus-overview",
-    "title": "R Packages Developement Workshop",
+    "title": "R Packages Development Workshop",
     "section": "Syllabus overview",
     "text": "Syllabus overview\nThis is a hands-on workshop covering the entire process of creating an R package: including functions and data, checking and testing, all levels of documentation, publication and maintenance. The final session covers the advanced topic of using Rcpp code in a package.\nAll slides and further resources can be accessed from the content page and also via the schedule."
   },
   {
     "objectID": "index.html#session-details",
     "href": "index.html#session-details",
-    "title": "R Packages Developement Workshop",
+    "title": "R Packages Development Workshop",
     "section": "Session details",
     "text": "Session details\n   June 26th-27th, 2024\n   10:30–16:30\n   Room A1.01, Zeeman Building, University of Warwick\n   Lunch provided each day\n   See the full schedule."
   },
   {
     "objectID": "index.html#instructor-details",
     "href": "index.html#instructor-details",
-    "title": "R Packages Developement Workshop",
+    "title": "R Packages Development Workshop",
     "section": "Instructor details",
     "text": "Instructor details\n   Ella Kaye and Heather Turner\n   ella.m.kaye@warwick.ac.uk and h.turner.1@warwick.ac.uk"
   },
   {
     "objectID": "index.html#prerequistes",
     "href": "index.html#prerequistes",
-    "title": "R Packages Developement Workshop",
+    "title": "R Packages Development Workshop",
     "section": "Prerequistes",
     "text": "Prerequistes\nPlease see the prerequisites page for details on getting set up in advance of the first session."
   },
@@ -95,7 +95,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule goes here"
+    "text": "Wednesday June 26th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and Introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage Foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nThursday June 27th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in Packages\nHeather Turner"
   },
   {
     "objectID": "slides/01-first-session/index.html#overview",
