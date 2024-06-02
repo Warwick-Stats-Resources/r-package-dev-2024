@@ -4,7 +4,7 @@
     "href": "content.html",
     "title": "Content",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nMay 1, 2023\n\n\nFirst session\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -42,55 +42,6 @@
     "text": "Prerequistes\nPlease see the prerequisites page for details on getting set up in advance of the first session."
   },
   {
-    "objectID": "slides/00-template/index.html#overview",
-    "href": "slides/00-template/index.html#overview",
-    "title": "SESSION TITLE",
-    "section": "Overview",
-    "text": "Overview\n\nWhat we’re covering"
-  },
-  {
-    "objectID": "slides/00-template/index.html#resources",
-    "href": "slides/00-template/index.html#resources",
-    "title": "SESSION TITLE",
-    "section": "Resources",
-    "text": "Resources\nMaterial inspired by and remixed from:"
-  },
-  {
-    "objectID": "slides/00-template/index.html#license",
-    "href": "slides/00-template/index.html#license",
-    "title": "SESSION TITLE",
-    "section": "License",
-    "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
-  },
-  {
-    "objectID": "content/01-first-session/index.html",
-    "href": "content/01-first-session/index.html",
-    "title": "First session",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-first-session/index.html#slides",
-    "href": "content/01-first-session/index.html#slides",
-    "title": "First session",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-first-session/index.html#resources",
-    "href": "content/01-first-session/index.html#resources",
-    "title": "First session",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nTITLE\n\n\n\n\nPackages"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Apply for the workshop",
-    "section": "",
-    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.\nThe form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.\nIf you have access to SkillsForge, you can also sign-up there. Note that you have to sign-up at the apply link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.\nSkillsForge"
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
@@ -98,32 +49,11 @@
     "text": "Wednesday June 26th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and Introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage Foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nThursday June 27th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in Packages\nHeather Turner"
   },
   {
-    "objectID": "slides/01-first-session/index.html#overview",
-    "href": "slides/01-first-session/index.html#overview",
-    "title": "First Session",
-    "section": "Overview",
-    "text": "Overview\n\nWhat we’re covering"
-  },
-  {
-    "objectID": "slides/01-first-session/index.html#some-code",
-    "href": "slides/01-first-session/index.html#some-code",
-    "title": "First Session",
-    "section": "Some code",
-    "text": "Some code\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npenguins |&gt;\n  filter(sex == \"female\",\n         species == \"Gentoo\") |&gt;\n  slice_max(body_mass_g, n = 5) |&gt;\n  select(contains(\"bill\"))\n\n# A tibble: 5 × 2\n  bill_length_mm bill_depth_mm\n           &lt;dbl&gt;         &lt;dbl&gt;\n1           46.5          14.8\n2           45.2          14.8\n3           49.1          14.8\n4           44.9          13.3\n5           45.1          14.5"
-  },
-  {
-    "objectID": "slides/01-first-session/index.html#resources",
-    "href": "slides/01-first-session/index.html#resources",
-    "title": "First Session",
-    "section": "Resources",
-    "text": "Resources\nMaterial inspired by and remixed from:"
-  },
-  {
-    "objectID": "slides/01-first-session/index.html#license",
-    "href": "slides/01-first-session/index.html#license",
-    "title": "First Session",
-    "section": "License",
-    "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Apply for the workshop",
+    "section": "",
+    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.\nThe form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.\nIf you have access to SkillsForge, you can also sign-up there. Note that you have to sign-up at the apply link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.\nSkillsForge"
   },
   {
     "objectID": "prerequisites.html",
