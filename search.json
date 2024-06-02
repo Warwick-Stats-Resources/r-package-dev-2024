@@ -1,5 +1,96 @@
 [
   {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "Content",
+    "section": "",
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nMay 1, 2023\n\n\nFirst session\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R Packages Developement Workshop",
+    "section": "",
+    "text": "Welcome to the R Packages Workshop!\nThis is a two-day workshop, taking place at The University of Warwick, June 27th-27th, 2024.\nIt is aimed primarily at graduate students in the Department of Statistics, but open to all interested members of the university, space permitting.\nPlease see the join page for details on how to sign-up for the course."
+  },
+  {
+    "objectID": "index.html#syllabus-overview",
+    "href": "index.html#syllabus-overview",
+    "title": "R Packages Developement Workshop",
+    "section": "Syllabus overview",
+    "text": "Syllabus overview\nThis is a hands-on workshop covering the entire process of creating an R package: including functions and data, checking and testing, all levels of documentation, publication and maintenance. The final session covers the advanced topic of using Rcpp code in a package.\nAll slides and further resources can be accessed from the content page and also via the schedule."
+  },
+  {
+    "objectID": "index.html#session-details",
+    "href": "index.html#session-details",
+    "title": "R Packages Developement Workshop",
+    "section": "Session details",
+    "text": "Session details\n   June 26th-27th, 2024\n   10:30–16:30\n   Room A1.01, Zeeman Building, University of Warwick\n   Lunch provided each day\n   See the full schedule."
+  },
+  {
+    "objectID": "index.html#instructor-details",
+    "href": "index.html#instructor-details",
+    "title": "R Packages Developement Workshop",
+    "section": "Instructor details",
+    "text": "Instructor details\n   Ella Kaye and Heather Turner\n   ella.m.kaye@warwick.ac.uk and h.turner.1@warwick.ac.uk"
+  },
+  {
+    "objectID": "index.html#prerequistes",
+    "href": "index.html#prerequistes",
+    "title": "R Packages Developement Workshop",
+    "section": "Prerequistes",
+    "text": "Prerequistes\nPlease see the prerequisites page for details on getting set up in advance of the first session."
+  },
+  {
+    "objectID": "slides/00-template/index.html#overview",
+    "href": "slides/00-template/index.html#overview",
+    "title": "SESSION TITLE",
+    "section": "Overview",
+    "text": "Overview\n\nWhat we’re covering"
+  },
+  {
+    "objectID": "slides/00-template/index.html#resources",
+    "href": "slides/00-template/index.html#resources",
+    "title": "SESSION TITLE",
+    "section": "Resources",
+    "text": "Resources\nMaterial inspired by and remixed from:"
+  },
+  {
+    "objectID": "slides/00-template/index.html#license",
+    "href": "slides/00-template/index.html#license",
+    "title": "SESSION TITLE",
+    "section": "License",
+    "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+  },
+  {
+    "objectID": "content/01-first-session/index.html",
+    "href": "content/01-first-session/index.html",
+    "title": "First session",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-first-session/index.html#slides",
+    "href": "content/01-first-session/index.html#slides",
+    "title": "First session",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-first-session/index.html#resources",
+    "href": "content/01-first-session/index.html#resources",
+    "title": "First session",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nTITLE\n\n\n\n\nPackages"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Apply for the workshop",
+    "section": "",
+    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.\nThe form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.\nIf you have access to SkillsForge, you can also sign-up there. Note that you have to sign-up at the apply link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.\nSkillsForge"
+  },
+  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
@@ -39,97 +130,27 @@
     "href": "prerequisites.html",
     "title": "Prerequisites",
     "section": "",
-    "text": "Add any prerequisites for the course here.\nIf there are no prerequisites:\n\ndelete the prerequisites.qmd file\ndelete the prerequisites section in index.qmd\nremove the lines in _quarto.yml which add a link to this file in the navbar."
+    "text": "This is an intermediate/advanced R course, so basic knowledge of R is expected. In particular, participants should be confident writing functions. The final session of the workshop is on incorporating Rcpp functions in an R package, so some knowledge of C++/Rcpp is beneficial.\nThe first three sessions of Warwick-Stats-Resources R Foundations course covers the required material basic material:\n\nIntroduction to R and RStudio\nData Wrangling\nProgramming in R\n\nThe Rcpp session of the Warwick-Stats-Resources R Programming course covers C++/Rcpp:\n\nC++ and Rcpp"
   },
   {
-    "objectID": "content.html",
-    "href": "content.html",
-    "title": "Content",
+    "objectID": "prerequisites.html#prior-knowledge",
+    "href": "prerequisites.html#prior-knowledge",
+    "title": "Prerequisites",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nMay 1, 2023\n\n\nFirst session\n\n\n\n\n\nNo matching items"
+    "text": "This is an intermediate/advanced R course, so basic knowledge of R is expected. In particular, participants should be confident writing functions. The final session of the workshop is on incorporating Rcpp functions in an R package, so some knowledge of C++/Rcpp is beneficial.\nThe first three sessions of Warwick-Stats-Resources R Foundations course covers the required material basic material:\n\nIntroduction to R and RStudio\nData Wrangling\nProgramming in R\n\nThe Rcpp session of the Warwick-Stats-Resources R Programming course covers C++/Rcpp:\n\nC++ and Rcpp"
   },
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join the class",
-    "section": "",
-    "text": "Add any instructions for joining the course here.\nIf there are no joining instructions:\n\ndelete the join.qmd file\ndelete the link to the join page in the ‘Session Details’ section of index.qmd\nremove the lines in _quarto.yml which add a link to this file in the navbar."
+    "objectID": "prerequisites.html#git-and-github",
+    "href": "prerequisites.html#git-and-github",
+    "title": "Prerequisites",
+    "section": "git and GitHub",
+    "text": "git and GitHub\nAlthough there will be some time dedicated to this in the workshop, it would be advantageous if you already have:\n\ngit installed on your computer. See https://git-scm.com/book/en/v2/Getting-Started-Installing-Git\na GitHub account\na GitHub PAT configured to work with RStudio – the vignette from the usethis package on Managing Git(Hub) Credentials goes through this."
   },
   {
-    "objectID": "content/01-first-session/index.html",
-    "href": "content/01-first-session/index.html",
-    "title": "First session",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-first-session/index.html#slides",
-    "href": "content/01-first-session/index.html#slides",
-    "title": "First session",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-first-session/index.html#resources",
-    "href": "content/01-first-session/index.html#resources",
-    "title": "First session",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nTITLE\n\n\n\n\nPackages"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "warwickcourse",
-    "section": "",
-    "text": "Welcome to the course!\nThis course is aimed primarily at…"
-  },
-  {
-    "objectID": "index.html#syllabus-overview",
-    "href": "index.html#syllabus-overview",
-    "title": "warwickcourse",
-    "section": "Syllabus overview",
-    "text": "Syllabus overview\nWhat we’re covering…\nAll slides and further resources can be accessed from the content page and also via the schedule."
-  },
-  {
-    "objectID": "index.html#session-details",
-    "href": "index.html#session-details",
-    "title": "warwickcourse",
-    "section": "Session details",
-    "text": "Session details\n   DAY OF COURSE\n   TIME OF COURSE\n   LOCATION\n   See the full schedule.\nPlease see the join page for more details on how to attend the course."
-  },
-  {
-    "objectID": "index.html#instructor-details",
-    "href": "index.html#instructor-details",
-    "title": "warwickcourse",
-    "section": "Instructor details",
-    "text": "Instructor details\n   INSTRUCTOR\n   INSTRUCTOR E-MAIL"
-  },
-  {
-    "objectID": "index.html#prerequistes",
-    "href": "index.html#prerequistes",
-    "title": "warwickcourse",
-    "section": "Prerequistes",
-    "text": "Prerequistes\nPlease see the prerequisites page for details on getting set up in advance of the first session."
-  },
-  {
-    "objectID": "slides/00-template/index.html#overview",
-    "href": "slides/00-template/index.html#overview",
-    "title": "SESSION TITLE",
-    "section": "Overview",
-    "text": "Overview\n\nWhat we’re covering"
-  },
-  {
-    "objectID": "slides/00-template/index.html#resources",
-    "href": "slides/00-template/index.html#resources",
-    "title": "SESSION TITLE",
-    "section": "Resources",
-    "text": "Resources\nMaterial inspired by and remixed from:"
-  },
-  {
-    "objectID": "slides/00-template/index.html#license",
-    "href": "slides/00-template/index.html#license",
-    "title": "SESSION TITLE",
-    "section": "License",
-    "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+    "objectID": "prerequisites.html#r-and-rstudio",
+    "href": "prerequisites.html#r-and-rstudio",
+    "title": "Prerequisites",
+    "section": "R and RStudio",
+    "text": "R and RStudio\nPlease ensure that you have the latest versions of R and RStudio installed prior to the first session. Currently, that’s R-4.4.0 and RStudio-2024.04.1.\nWe also strongly recommend all participants to install the development tools to avoid potential issues installing packages.\n\nInstalling R\nDownload the pre-compiled binary for your OS from https://cloud.r-project.org/ and install. More specifically:\nFor Windows\nClick “Download R for Windows”, then “base”, then “Download R-4.4.0 for Windows”. This will download an .exe file; once downloaded, open to start the installation.\nFor Mac\nClick “Download R for macOS”, then “R-4.4.0-arm64.pkg” (the first option) to download the installer for Macs with Apple Silicon chips or “R-4.4.0-x86_64.pkg” (the second option) to download the installer for Macs with Intel chips. Run the installer to complete installation.\nFor Linux\nClick “Download R for Linux”. Instructions on installing are given for Debian, Fedora, Redhat, Suse and Ubuntu distributions. Where there is a choice, install both r-base and r-base-dev.\n\n\nInstalling R Studio Desktop (Open Source Edition)\nDownloads are available from https://posit.co/download/rstudio-desktop/\nDownload the relevant installer either under the “Install RStudio” header or, scrolling down the page, from the ‘All installers and Tarballs’ section. Run the installer to complete installation.\nFor Windows with no admin rights\nDownload the .zip source archive under “Zip/Tarballs”. Extract the files to a folder where you have write access, e.g. C:\\Users\\username\\RStudio. In this folder, open the bin directory and find the RStudio program: it is named rstudio.exe, but the file extension will typically be hidden, so look for rstudio. Right-click this executable to create a desktop shortcut. Double-click the executable or use the shortcut to open.\nFor all other operating systems\nDownload the relevant installer for your OS listed under “Installers for Supported Platforms”. Run the installer to complete installation.\n\n\nDevelopment Tools\nSome additional tools may be required to compile R packages from source.\nFor Windows with no admin rights\nDownload the latest (recommended) Rtools installer, Rtools.exe, from https://cran.r-project.org/bin/windows/Rtools/. Run the installer keeping the default settings.\nFor Windows with admin rights\nDownload the latest Rtools installer, Rtools.exe, from https://cran.r-project.org/bin/windows/Rtools/. Run the installer making the following selections: keep the default settings for the installation location and components to install; check the box to add rtools to the system PATH.\nFor Mac\nInstall XCode. Either:\n\nDownload and install XCode from the Mac AppStore: http://itunes.apple.com/us/app/xcode/id497799835?mt=12\nWithin XCode go to Preferences : Downloads and install the Command Line Tools\n\nOr for a smaller download size:\n\nRegister as an Apple Developer (free) here: https://developer.apple.com/programs/register/\nDownload the Command Line Tools for XCode appropriate for the version of OS X you are running from here: https://developer.apple.com/downloads/\n\nFor Linux\nIf you installed r-base-dev, when installing R, you should have all you need to build packages from source. Otherwise return to the instructions for installing R for your distribution and follow the instructions there to install the additional tools."
   }
 ]

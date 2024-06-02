@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-package-dev-2024/schedule.html</loc>
-    <lastmod>2024-06-01T18:01:01.958Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content.html</loc>
+    <lastmod>2024-06-02T16:12:21.761Z</lastmod>
   </url>
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-package-dev-2024/slides/01-first-session/index.html</loc>
-    <lastmod>2024-06-01T18:01:01.958Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/index.html</loc>
+    <lastmod>2024-06-02T16:12:21.765Z</lastmod>
   </url>
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-package-dev-2024/prerequisites.html</loc>
-    <lastmod>2024-06-01T18:01:01.958Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/00-template/index.html</loc>
+    <lastmod>2024-06-02T16:12:21.765Z</lastmod>
   </url>
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-package-dev-2024/content.html</loc>
-    <lastmod>2024-06-01T18:01:01.955Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/01-first-session/index.html</loc>
+    <lastmod>2024-06-02T16:12:21.761Z</lastmod>
   </url>
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-package-dev-2024/join.html</loc>
-    <lastmod>2024-06-01T18:01:01.957Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/join.html</loc>
+    <lastmod>2024-06-02T16:12:21.765Z</lastmod>
   </url>
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-package-dev-2024/content/01-first-session/index.html</loc>
-    <lastmod>2024-06-01T18:01:01.956Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/schedule.html</loc>
+    <lastmod>2024-06-02T16:12:21.765Z</lastmod>
   </url>
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-package-dev-2024/index.html</loc>
-    <lastmod>2024-06-01T18:01:01.957Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/01-first-session/index.html</loc>
+    <lastmod>2024-06-02T16:12:21.765Z</lastmod>
   </url>
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-package-dev-2024/slides/00-template/index.html</loc>
-    <lastmod>2024-06-01T18:01:01.958Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/prerequisites.html</loc>
+    <lastmod>2024-06-02T16:12:21.765Z</lastmod>
   </url>
 </urlset>

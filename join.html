@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R Package Development 2024 - Join the class</title>
+<title>R Package Development 2024 - Apply for the workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Content</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/Warwick-Stats-Resources/r-package-dev-2024"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/Warwick-Stats-Resources/r-packages-2024"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Join the class</h1>
+<h1 class="title">Apply for the workshop</h1>
 </div>
 
 
@@ -146,13 +146,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Add any instructions for joining the course here.</p>
-<p>If there are no joining instructions:</p>
-<ul>
-<li>delete the <code>join.qmd</code> file</li>
-<li>delete the link to the join page in the ‘Session Details’ section of <code>index.qmd</code></li>
-<li>remove the lines in <code>_quarto.yml</code> which add a link to this file in the navbar.</li>
-</ul>
+<p>Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.</p>
+<p><a href="https://warwick.ac.uk/ellakaye/r-packages-2024" class="btn btn-primary" target="_blank">Apply</a></p>
+<p>Please note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.</p>
+<p>The form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.</p>
+<p>If you have access to SkillsForge, you can <em>also</em> sign-up there. Note that you have to sign-up at the <a href="https://warwick.ac.uk/ellakaye/r-packages-2024" target="_blank">apply</a> link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.</p>
+<p><a href="https://skillsforge.warwick.ac.uk/warwick/#he/dev/eventDetails,;em,providerCode=ST,providerOrgAlias=warwick,number=5,;" class="btn btn-primary" target="_blank">SkillsForge</a></p>
 
 
 
@@ -238,7 +237,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/Warwick-Stats-Resources\.github\.io\/r-package-dev-2024\/");
+      var filterRegex = new RegExp("https:\/\/Warwick-Stats-Resources\.github\.io\/r-packages-2024\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -247,6 +246,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -288,7 +292,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
