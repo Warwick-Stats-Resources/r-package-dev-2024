@@ -2,58 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content.html</loc>
-    <lastmod>2024-06-03T09:54:44.379Z</lastmod>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.383Z</lastmod>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/01-welcome/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/02-package-foundations/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/schedule.html</loc>
-    <lastmod>2024-06-03T09:54:44.383Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/01-welcome/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.379Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/02-package-foundations/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.379Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/join.html</loc>
-    <lastmod>2024-06-03T09:54:44.383Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/03-documentation/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.379Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/04-testing/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.379Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/00-template/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.383Z</lastmod>
+    <lastmod>2024-06-03T09:59:25.736Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/03-documentation/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.395Z</lastmod>
+    <lastmod>2024-06-03T09:59:25.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/00-template/index.html</loc>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/04-testing/index.html</loc>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/05-check-package-documentation/index.html</loc>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/02-package-foundations/index.html</loc>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/join.html</loc>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/03-documentation/index.html</loc>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/01-welcome/index.html</loc>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/schedule.html</loc>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/02-package-foundations/index.html</loc>
+    <lastmod>2024-06-03T09:59:25.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/05-check-package-documentation/index.html</loc>
+    <lastmod>2024-06-03T09:59:25.744Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/04-testing/index.html</loc>
-    <lastmod>2024-06-03T09:54:44.395Z</lastmod>
+    <lastmod>2024-06-03T09:59:25.740Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/prerequisites.html</loc>
-    <lastmod>2024-06-03T09:54:44.383Z</lastmod>
+    <lastmod>2024-06-03T09:59:25.728Z</lastmod>
   </url>
 </urlset>
