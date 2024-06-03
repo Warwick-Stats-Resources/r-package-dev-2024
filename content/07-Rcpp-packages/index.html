@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ella Kaye">
+<meta name="author" content="Heather Turner">
+<meta name="dcterms.date" content="2024-06-27">
 
-<title>R Packages 2024 - Schedule</title>
+<title>R Packages 2024 - Rcpp in packages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/warwick-monogram-favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/warwick-monogram-favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -79,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">R Packages 2024</span>
     </a>
   </div>
@@ -90,19 +93,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./join.html"> 
+    <a class="nav-link" href="../../join.html"> 
 <span class="menu-text">Join</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./prerequisites.html"> 
+    <a class="nav-link" href="../../prerequisites.html"> 
 <span class="menu-text">Prerequisites</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./schedule.html" aria-current="page"> 
+    <a class="nav-link" href="../../schedule.html"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./content.html"> 
+    <a class="nav-link" href="../../content.html"> 
 <span class="menu-text">Content</span></a>
   </li>  
   <li class="nav-item compact">
@@ -126,8 +129,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#wednesday-june-26th-2024" id="toc-wednesday-june-26th-2024" class="nav-link active" data-scroll-target="#wednesday-june-26th-2024">Wednesday June 26th, 2024</a></li>
-  <li><a href="#thursday-june-27th-2024" id="toc-thursday-june-27th-2024" class="nav-link" data-scroll-target="#thursday-june-27th-2024">Thursday June 27th, 2024</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a>
+  <ul class="collapse">
+  <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">Reading</a></li>
+  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -136,14 +143,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Schedule</h1>
+<h1 class="title">Rcpp in packages</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ella Kaye </p>
+             <p>Heather Turner </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 27, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -153,100 +173,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="wednesday-june-26th-2024" class="level3">
-<h3 class="anchored" data-anchor-id="wednesday-june-26th-2024">Wednesday June 26th, 2024</h3>
-<table class="table">
-<colgroup>
-<col style="width: 22%">
-<col style="width: 60%">
-<col style="width: 18%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Time</th>
-<th>Session</th>
-<th>Presenter</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>10:30–10:40</td>
-<td><a href="./content/01-welcome/index.html">Welcome and introduction</a></td>
-<td>Ella Kaye, Heather Turner</td>
-</tr>
-<tr class="even">
-<td>10:40–12:00</td>
-<td><a href="./content/02-package-foundations/index.html">Package foundations</a></td>
-<td>Ella Kaye</td>
-</tr>
-<tr class="odd">
-<td>12:00–13:00</td>
-<td>Lunch</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>13:00–14:30</td>
-<td><a href="./content/03-documentation/index.html">Function documentation and dependencies</a></td>
-<td>Ella Kaye</td>
-</tr>
-<tr class="odd">
-<td>14:30–15:00</td>
-<td>Coffee break</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>15:00–16:30</td>
-<td><a href="./content/04-testing/index.html">Testing</a></td>
-<td>Heather Turner</td>
-</tr>
-</tbody>
-</table>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>Here’s a link to the <a href="../../slides/07-Rcpp-packages/index.html" target="_blank">slides</a> in a new window.</p>
+<p>Here are the slides embedded:</p>
+<iframe class="slide-deck ar3x2" src="../../slides/07-Rcpp-packages/index.html" title="07-Rcpp-packages slides">
+</iframe>
 </section>
-<section id="thursday-june-27th-2024" class="level3">
-<h3 class="anchored" data-anchor-id="thursday-june-27th-2024">Thursday June 27th, 2024</h3>
-<table class="table">
-<colgroup>
-<col style="width: 22%">
-<col style="width: 60%">
-<col style="width: 18%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Time</th>
-<th>Session</th>
-<th>Presenter</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>10:30–12:00</td>
-<td><a href="./content/05-check-package-documentation/index.html">Package check and documentation</a></td>
-<td>Ella Kaye</td>
-</tr>
-<tr class="even">
-<td>12:00–13:00</td>
-<td>Lunch</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>13:00–14:30</td>
-<td><a href="./content/06-data-publication-maintenance/index.html">Packaging data; Publication and maintenance</a></td>
-<td>Ella Kaye</td>
-</tr>
-<tr class="even">
-<td>14:30–15:00</td>
-<td>Coffee break</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>15:00–16:30</td>
-<td><a href="./content/07-Rcpp-packages/index.html">Rcpp in packages</a></td>
-<td>Heather Turner</td>
-</tr>
-</tbody>
-</table>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<section id="reading" class="level3">
+<h3 class="anchored" data-anchor-id="reading">Reading</h3>
+<ul>
+<li><p>Wickham, H and Bryan, J, <em>R Packages</em> (2nd edition)</p>
+<p><a href="https://r-pkgs.org" class="uri">https://r-pkgs.org</a></p></li>
+<li><p>R Core Team, <em>Writing R Extensions</em></p>
+<p><a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html" class="uri">https://cran.r-project.org/doc/manuals/r-release/R-exts.html</a></p></li>
+</ul>
+</section>
+<section id="packages" class="level3">
+<h3 class="anchored" data-anchor-id="packages">Packages</h3>
+<ul>
+<li><p><strong>devtools</strong></p>
+<p><a href="https://devtools.r-lib.org" class="uri">https://devtools.r-lib.org</a></p></li>
+<li><p><strong>usethis</strong></p>
+<p><a href="https://usethis.r-lib.org" class="uri">https://usethis.r-lib.org</a></p></li>
+<li><p><strong>Rcpp</strong></p>
+<ul>
+<li><a href="https://www.rcpp.org" class="uri">https://www.rcpp.org</a></li>
+<li><a href="https://github.com/RcppCore/Rcpp" class="uri">https://github.com/RcppCore/Rcpp</a></li>
+<li><a href="https://dirk.eddelbuettel.com/code/rcpp.html" class="uri">https://dirk.eddelbuettel.com/code/rcpp.html</a></li>
+</ul></li>
+<li><p><strong>RcppArmadillo</strong></p>
+<ul>
+<li><a href="http://dirk.eddelbuettel.com/code/rcpp.armadillo.html" class="uri">http://dirk.eddelbuettel.com/code/rcpp.armadillo.html</a></li>
+</ul></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

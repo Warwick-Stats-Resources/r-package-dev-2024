@@ -4,7 +4,7 @@
     "href": "content.html",
     "title": "Content",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nJun 26, 2024\n\n\nWelcome and introduction\n\n\n\n\nJun 26, 2024\n\n\nPackage foundations\n\n\n\n\nJun 26, 2024\n\n\nFunction documentation and dependencies\n\n\n\n\nJun 26, 2024\n\n\nTesting\n\n\n\n\nJun 27, 2024\n\n\nPackage check and documentation\n\n\n\n\nJun 27, 2024\n\n\nPackaging data; Publication and maintenance\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nJun 26, 2024\n\n\nWelcome and introduction\n\n\n\n\nJun 26, 2024\n\n\nPackage foundations\n\n\n\n\nJun 26, 2024\n\n\nFunction documentation and dependencies\n\n\n\n\nJun 26, 2024\n\n\nTesting\n\n\n\n\nJun 27, 2024\n\n\nPackage check and documentation\n\n\n\n\nJun 27, 2024\n\n\nPackaging data; Publication and maintenance\n\n\n\n\nJun 27, 2024\n\n\nRcpp in packages\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -308,146 +308,6 @@
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Wednesday June 26th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nThursday June 27th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
-  },
-  {
-    "objectID": "content/01-welcome/index.html",
-    "href": "content/01-welcome/index.html",
-    "title": "Welcome and introduction",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-welcome/index.html#slides",
-    "href": "content/01-welcome/index.html#slides",
-    "title": "Welcome and introduction",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-welcome/index.html#resources",
-    "href": "content/01-welcome/index.html#resources",
-    "title": "Welcome and introduction",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
-  },
-  {
-    "objectID": "content/03-documentation/index.html",
-    "href": "content/03-documentation/index.html",
-    "title": "Function documentation and dependencies",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/03-documentation/index.html#slides",
-    "href": "content/03-documentation/index.html#slides",
-    "title": "Function documentation and dependencies",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/03-documentation/index.html#resources",
-    "href": "content/03-documentation/index.html#resources",
-    "title": "Function documentation and dependencies",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org\nroxygen2\nhttps://roxygen2.r-lib.org\nrlang\nhttps://rlang.r-lib.org\ncli\nhttps://cli.r-lib.org"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Apply for the workshop",
-    "section": "",
-    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.\nThe form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.\nIf you have access to SkillsForge, you can also sign-up there. Note that you have to sign-up at the apply link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.\nSkillsForge"
-  },
-  {
-    "objectID": "content/06-data-publication-maintenance/index.html",
-    "href": "content/06-data-publication-maintenance/index.html",
-    "title": "Packaging data; Publication and maintenance",
-    "section": "",
-    "text": "The slides for this session are still under development"
-  },
-  {
-    "objectID": "content/06-data-publication-maintenance/index.html#slides",
-    "href": "content/06-data-publication-maintenance/index.html#slides",
-    "title": "Packaging data; Publication and maintenance",
-    "section": "Slides",
-    "text": "Slides\nHere’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/06-data-publication-maintenance/index.html#resources",
-    "href": "content/06-data-publication-maintenance/index.html#resources",
-    "title": "Packaging data; Publication and maintenance",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
-  },
-  {
-    "objectID": "content/02-package-foundations/index.html",
-    "href": "content/02-package-foundations/index.html",
-    "title": "Package foundations",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/02-package-foundations/index.html#slides",
-    "href": "content/02-package-foundations/index.html#slides",
-    "title": "Package foundations",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/02-package-foundations/index.html#resources",
-    "href": "content/02-package-foundations/index.html#resources",
-    "title": "Package foundations",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
-  },
-  {
-    "objectID": "content/05-check-package-documentation/index.html",
-    "href": "content/05-check-package-documentation/index.html",
-    "title": "Package check and documentation",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/05-check-package-documentation/index.html#slides",
-    "href": "content/05-check-package-documentation/index.html#slides",
-    "title": "Package check and documentation",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/05-check-package-documentation/index.html#resources",
-    "href": "content/05-check-package-documentation/index.html#resources",
-    "title": "Package check and documentation",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org\npkgdown\nhttps://pkgdown.r-lib.org"
-  },
-  {
-    "objectID": "content/04-testing/index.html",
-    "href": "content/04-testing/index.html",
-    "title": "Testing",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/04-testing/index.html#slides",
-    "href": "content/04-testing/index.html#slides",
-    "title": "Testing",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/04-testing/index.html#resources",
-    "href": "content/04-testing/index.html#resources",
-    "title": "Testing",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org\ntestthat\nhttps://testthat.r-lib.org"
-  },
-  {
     "objectID": "slides/06-data-publication-maintenance/index.html#overview",
     "href": "slides/06-data-publication-maintenance/index.html#overview",
     "title": "Packaging dataPublication and maintenance",
@@ -682,6 +542,370 @@
     "objectID": "slides/06-data-publication-maintenance/index.html#license",
     "href": "slides/06-data-publication-maintenance/index.html#license",
     "title": "Packaging dataPublication and maintenance",
+    "section": "License",
+    "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+  },
+  {
+    "objectID": "content/04-testing/index.html",
+    "href": "content/04-testing/index.html",
+    "title": "Testing",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/04-testing/index.html#slides",
+    "href": "content/04-testing/index.html#slides",
+    "title": "Testing",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/04-testing/index.html#resources",
+    "href": "content/04-testing/index.html#resources",
+    "title": "Testing",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org\ntestthat\nhttps://testthat.r-lib.org"
+  },
+  {
+    "objectID": "content/05-check-package-documentation/index.html",
+    "href": "content/05-check-package-documentation/index.html",
+    "title": "Package check and documentation",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/05-check-package-documentation/index.html#slides",
+    "href": "content/05-check-package-documentation/index.html#slides",
+    "title": "Package check and documentation",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/05-check-package-documentation/index.html#resources",
+    "href": "content/05-check-package-documentation/index.html#resources",
+    "title": "Package check and documentation",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org\npkgdown\nhttps://pkgdown.r-lib.org"
+  },
+  {
+    "objectID": "content/02-package-foundations/index.html",
+    "href": "content/02-package-foundations/index.html",
+    "title": "Package foundations",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/02-package-foundations/index.html#slides",
+    "href": "content/02-package-foundations/index.html#slides",
+    "title": "Package foundations",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/02-package-foundations/index.html#resources",
+    "href": "content/02-package-foundations/index.html#resources",
+    "title": "Package foundations",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
+  },
+  {
+    "objectID": "content/07-Rcpp-packages/index.html",
+    "href": "content/07-Rcpp-packages/index.html",
+    "title": "Rcpp in packages",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/07-Rcpp-packages/index.html#slides",
+    "href": "content/07-Rcpp-packages/index.html#slides",
+    "title": "Rcpp in packages",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/07-Rcpp-packages/index.html#resources",
+    "href": "content/07-Rcpp-packages/index.html#resources",
+    "title": "Rcpp in packages",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org\nRcpp\n\nhttps://www.rcpp.org\nhttps://github.com/RcppCore/Rcpp\nhttps://dirk.eddelbuettel.com/code/rcpp.html\n\nRcppArmadillo\n\nhttp://dirk.eddelbuettel.com/code/rcpp.armadillo.html"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Apply for the workshop",
+    "section": "",
+    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.\nThe form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.\nIf you have access to SkillsForge, you can also sign-up there. Note that you have to sign-up at the apply link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.\nSkillsForge"
+  },
+  {
+    "objectID": "content/06-data-publication-maintenance/index.html",
+    "href": "content/06-data-publication-maintenance/index.html",
+    "title": "Packaging data; Publication and maintenance",
+    "section": "",
+    "text": "The slides for this session are still under development"
+  },
+  {
+    "objectID": "content/06-data-publication-maintenance/index.html#slides",
+    "href": "content/06-data-publication-maintenance/index.html#slides",
+    "title": "Packaging data; Publication and maintenance",
+    "section": "Slides",
+    "text": "Slides\nHere’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/06-data-publication-maintenance/index.html#resources",
+    "href": "content/06-data-publication-maintenance/index.html#resources",
+    "title": "Packaging data; Publication and maintenance",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
+  },
+  {
+    "objectID": "content/03-documentation/index.html",
+    "href": "content/03-documentation/index.html",
+    "title": "Function documentation and dependencies",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/03-documentation/index.html#slides",
+    "href": "content/03-documentation/index.html#slides",
+    "title": "Function documentation and dependencies",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/03-documentation/index.html#resources",
+    "href": "content/03-documentation/index.html#resources",
+    "title": "Function documentation and dependencies",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org\nroxygen2\nhttps://roxygen2.r-lib.org\nrlang\nhttps://rlang.r-lib.org\ncli\nhttps://cli.r-lib.org"
+  },
+  {
+    "objectID": "content/01-welcome/index.html",
+    "href": "content/01-welcome/index.html",
+    "title": "Welcome and introduction",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-welcome/index.html#slides",
+    "href": "content/01-welcome/index.html#slides",
+    "title": "Welcome and introduction",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-welcome/index.html#resources",
+    "href": "content/01-welcome/index.html#resources",
+    "title": "Welcome and introduction",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Wednesday June 26th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nThursday June 27th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#overview",
+    "href": "slides/07-Rcpp-packages/index.html#overview",
+    "title": "Rcpp in packages",
+    "section": "Overview",
+    "text": "Overview\n\nC++ and Rcpp\nCreating an Rcpp package\nRcpp development workflow\nC++ interface\nRcppArmadillo"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#recap",
+    "href": "slides/07-Rcpp-packages/index.html#recap",
+    "title": "Rcpp in packages",
+    "section": "Recap",
+    "text": "Recap\nThis session assumes familiarity with the C++ and Rcpp session of the Advanced R workshop.\n\nFor the 2023 workshop, all participants should either have attended this session the day before or been e-mailed in advanced with a link to the material and told that it is a prerequisite."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#create-a-version-controlled-package",
+    "href": "slides/07-Rcpp-packages/index.html#create-a-version-controlled-package",
+    "title": "Rcpp in packages",
+    "section": "Create a version-controlled package",
+    "text": "Create a version-controlled package\nCreate a new package:\n\nusethis::create_package(\"~/Desktop/pkgrcpp\")\n\nMake your package a Git repo:\n\nusethis::use_git()\n\nLink to GitHub:\n\nusethis::use_github()\n\nCommit your changes to git with a message “use GitHub”."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#use-rcpp",
+    "href": "slides/07-Rcpp-packages/index.html#use-rcpp",
+    "title": "Rcpp in packages",
+    "section": "Use Rcpp",
+    "text": "Use Rcpp\nUse Rcpp and create an initial .cpp file:\n\nusethis::use_rcpp(\"add_cpp\")\n\n\nCreates a /src directory for our C++ files\nSets up src/.gitignore to ignore compiled files\nAdds “Rcpp” to the “LinkingTo” and “Imports” fields in DESCRIPTION\nAdds add_cpp.cpp ready for editing.\n\nIt also copies some code to the clipboard for us to add to R/&lt;packagename&gt;-package.R which we must create."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#packagename-package.r",
+    "href": "slides/07-Rcpp-packages/index.html#packagename-package.r",
+    "title": "Rcpp in packages",
+    "section": "<packagename>-package.R",
+    "text": "&lt;packagename&gt;-package.R\n\nusethis::use_r(\"pkgrcpp-package.R\")\n\nThen copy the code from the clipboard into this file:\n## usethis namespace: start\n#' @useDynLib pkgrcpp, .registration = TRUE\n#' @importFrom Rcpp sourceCpp\n## usethis namespace: end\nNULL\nThe roxygen2 comments direct to\n\nimport Rcpp::sourceCpp\nadd useDynLib(pkgrcpp,\".registration=TRUE\") to the NAMESPACE, so that the compiled code can be loaded and all C++ routines will be registered.\n\n\npackage level doc: https://stackoverflow.com/a/60750351/173755\nWe’ll still need to create the package documentation (NAMESPACE) later."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#add-an-rcpp-function",
+    "href": "slides/07-Rcpp-packages/index.html#add-an-rcpp-function",
+    "title": "Rcpp in packages",
+    "section": "Add an Rcpp function",
+    "text": "Add an Rcpp function\nadd_cpp.cpp should already have the following code:\n\n#include &lt;Rcpp.h&gt;\nusing namespace Rcpp;\n\nEdit add_cpp.cpp to add a C++ function and the Rcpp export comment, e.g.\n\n// [[Rcpp::export]]\ndouble add_cpp(double x, double y) {\n  double value = x + y;\n  return value;\n}\n\n\nnote the header #include and the special attribute // [[Rcpp::export]]"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#run-build-document",
+    "href": "slides/07-Rcpp-packages/index.html#run-build-document",
+    "title": "Rcpp in packages",
+    "section": "Run Build > Document",
+    "text": "Run Build &gt; Document\nBuild &gt; Document or Ctrl/Cmd + Shift + D now runs two functions:\n\nRcpp::compileAttributes() looks for // [[Rcpp::export]] and generates\n\nsrc/RcppExports.cpp: C routines wrapping exported C++ functions\nR/RcppExports.R: R wrappers that call the C routines.\n\ndevtools::document() that converts roxygen comments as usual, in particular updating the NAMESPACE.\nimportFrom(Rcpp,sourceCpp)\nuseDynLib(pkgrcpp, .registration = TRUE)\n\n\nhttp://dirk.eddelbuettel.com/code/rcpp/Rcpp-attributes.pdf\nFrom the menu bar it’s Build &gt; Document From the build pane, it’s Build &gt; More &gt; Document"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#r-wrapper",
+    "href": "slides/07-Rcpp-packages/index.html#r-wrapper",
+    "title": "Rcpp in packages",
+    "section": "R wrapper",
+    "text": "R wrapper\nThe R wrapper generated by Rcpp is as follows, in R/RcppExports.R:\n\n# Generated by using Rcpp::compileAttributes() -&gt; do not edit by hand\n# Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393\n\nadd_cpp &lt;- function(x, y) {\n    .Call(`_pkgrcpp_add_cpp`, x, y)\n}\n\nCurrently this is an internal R function - we have not taken any action to add it as an export in the NAMESPACE."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#try-out-the-r-wrapper",
+    "href": "slides/07-Rcpp-packages/index.html#try-out-the-r-wrapper",
+    "title": "Rcpp in packages",
+    "section": "Try out the R wrapper",
+    "text": "Try out the R wrapper\ndevtools::load_all(), Ctrl/Cmd + Shift + L, makes both internal and exported functions available for testing (without using ::: or ::).\n\ndevtools::load_all()\nadd_cpp(3, 4)\n\n\nThis is one advantage over install and restart.\nAlso install and restart does not work well on Windows as the package is locked after loading with library()."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#your-turn",
+    "href": "slides/07-Rcpp-packages/index.html#your-turn",
+    "title": "Rcpp in packages",
+    "section": "Your turn",
+    "text": "Your turn\n\n\nCommit the changes so far with a message “Use Rcpp and add add_cpp function”.\nCreate a new .cpp file in the /src directory (using use_rcpp or File &gt; New File). Save the file as sumC.cpp. Add the C++ function\n\n\n// [[Rcpp::export]]\ndouble sumC(NumericVector x) {\n  int n = x.size();\n  double total = 0;\n  for(int i = 0; i &lt; n; ++i) {\n    total += x[i];\n  }\n  return total;\n}\n\n\nRun Build &gt; Document. Look at the changes to the repo by looking at the diff.\nRun devtools::load_all() and try out the new function.\nCommit your changes to git."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#rcpp-development-workflow-1",
+    "href": "slides/07-Rcpp-packages/index.html#rcpp-development-workflow-1",
+    "title": "Rcpp in packages",
+    "section": "Rcpp development workflow",
+    "text": "Rcpp development workflow\nThe development workflow is the same as for R:\n\nModify Rcpp Code -&gt; Load All -&gt; Explore in Console.\n\ndevtools::load_all() will detect changes in the C++ code and\n\nUpdate src/RcppExports.cpp and R/RcppExports.R\nRecompile the C++ code"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#document-the-r-wrapper",
+    "href": "slides/07-Rcpp-packages/index.html#document-the-r-wrapper",
+    "title": "Rcpp in packages",
+    "section": "Document the R wrapper",
+    "text": "Document the R wrapper\n\nWe only need to document the R wrapper if we plan to export it.\nThe R wrapper is generated by Rcpp::compileAttributes(), so we cannot add roxygen comments to export or document the function there.\nInstead, we add comments above our C++ function, using \\\\'instead of #'."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#c-roxygen",
+    "href": "slides/07-Rcpp-packages/index.html#c-roxygen",
+    "title": "Rcpp in packages",
+    "section": "C++ roxygen",
+    "text": "C++ roxygen\n\n\nIn add_cpp.cpp\n\n//' Add Two Numbers\n//'\n//' Return the sum of two numbers.\n//' @param x\n//' @param y\n//' @export\n// [[Rcpp::export]]\ndouble add_cpp(double x, double y) {\n  double value = x + y;\n  return value;\n}\n\n\nIn generated R/RcppExports.R\n\n#' Add Two Numbers\n#'\n#' Return the sum of two numbers.\n#' @param x\n#' @param y\n#' @export\n// [[Rcpp::export]]\nadd_cpp &lt;- function(x, y) {\n    .Call(`_pkgrcpp_add_cpp`, x, y)\n}"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#your-turn-1",
+    "href": "slides/07-Rcpp-packages/index.html#your-turn-1",
+    "title": "Rcpp in packages",
+    "section": "Your turn",
+    "text": "Your turn\n\nCopy the documentation for add_cpp and add it to add_cpp.cpp.\nUsing the documentation for add_cpp as a guide, add documentation to sumC.cpp.\nRun Build &gt; Document to update the NAMESPACE and create the documentation files for the two R wrappers.\nCommit your changes to git."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#exporting-c-code",
+    "href": "slides/07-Rcpp-packages/index.html#exporting-c-code",
+    "title": "Rcpp in packages",
+    "section": "Exporting C++ Code",
+    "text": "Exporting C++ Code\nAs we have seen, Rcpp::compileAttributes() creates an R interface to our exported C++ functions.\nTo make a C++ interface for code in a .cpp file, we should add a custom Rcpp::interfaces() attribute as follows:\n#include &lt;Rcpp.h&gt;\nusing namespace Rcpp;\n// [[Rcpp::interfaces(r, cpp)]]\nWe can specify r and/or cpp to ask for an R and/or C++ interface.\n\nN.B. // [[Rcpp::export]] must come AFTER // [[Rcpp::interfaces]]"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#c-interface",
+    "href": "slides/07-Rcpp-packages/index.html#c-interface",
+    "title": "Rcpp in packages",
+    "section": "C++ Interface",
+    "text": "C++ Interface\nRcpp::compileAttributes() generates the following header files in /inst/include:\n\n&lt;packagename&gt;_RcppExports.h: inline definitions for all exported C++ functions.\n&lt;packagename&gt;.h: includes the &lt;packagename&gt;_RcppExports.h. Package authors may add additional C++ code here for sharing.\n\nAll directories in inst are moved to the top level of the package directory on installation."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#your-turn-2",
+    "href": "slides/07-Rcpp-packages/index.html#your-turn-2",
+    "title": "Rcpp in packages",
+    "section": "Your turn",
+    "text": "Your turn\n\nAdd an Rcpp::interfaces() attribute to add_cpp.cpp to request both R and C++ interfaces for the add_cpp function.\nRun Build &gt; Document to create the C++ interface. Take a look at the generated files.\nCommit your changes to git.\n\n\nWhen I did this, it deleted man/add_cpp.Rd. Not sure why. I used ‘revert’ in the git pane to undo this."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#importing-c-code-with-rcpp-c-interface",
+    "href": "slides/07-Rcpp-packages/index.html#importing-c-code-with-rcpp-c-interface",
+    "title": "Rcpp in packages",
+    "section": "Importing C++ code with Rcpp C++ interface",
+    "text": "Importing C++ code with Rcpp C++ interface\nTo use C++ code from another package that has created a C++ interface for their Rcpp functions, in DESCRIPTION add\nLinkingTo: otherpkg\ne.g. with usethis::use_package(otherpkg, type = \"LinkingTo\"). Then in .cpp file, add the header file to includes\n\n#include &lt;Rcpp.h&gt;\n#include &lt;otherpkg.h&gt;\n\nThen either using namespace otherpkg; to make the functions from otherpackage available globally, or otherpkg::fn() to access functions directly.\n\nhttps://www.faqcode4u.com/faq/20021/using-c-function-from-other-package-in-rcpp possibly https://cran.r-project.org/web/packages/RcppClock/RcppClock.pdf https://dirk.eddelbuettel.com/papers/useR2017_rcpp_tutorial.pdf https://github.com/stla/RcppColors\nmaybe https://github.com/drostlab/philentropy https://github.com/cran/cooltools/tree/master/inst/include https://github.com/YeeJeremy/rflann"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#example-alternative-distribution-functions",
+    "href": "slides/07-Rcpp-packages/index.html#example-alternative-distribution-functions",
+    "title": "Rcpp in packages",
+    "section": "Example: Alternative Distribution Functions",
+    "text": "Example: Alternative Distribution Functions\nIn the Advanced R workshop (final exercise of the Rcpp session), we wrote an Rcpp function to approximate \\(\\pi\\):\n\ndouble approx_pi(const int N) {\n  NumericVector x = runif(N);\n  NumericVector y = runif(N);\n  NumericVector d = sqrt(x*x + y*y);\n  return 4.0 * sum(d &lt; 1.0) / N;\n}\n\nWe can try using the dqrunif C++ functions provided by the dqrng package instead of Rcpp::runif.\nSee https://daqana.github.io/dqrng/index.html for more info on this package."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#your-turn-3",
+    "href": "slides/07-Rcpp-packages/index.html#your-turn-3",
+    "title": "Rcpp in packages",
+    "section": "Your turn",
+    "text": "Your turn\n\n\nInstall the dqrng package.\nUse usethis::use_package() to add dqrng to LinkingTo. It will show possible headers to include, including dqrng.h which provides the Rcpp exports.\nCreate a new .cpp file and add the approx_pi function. Make sure to add the necessary headers and Rcpp attribute, so that you can use it after running devtools::load_all().\nAdd a second version of the approx_pi function that uses the dqrunif C++ functions from dqrng instead.\nLoad all and use bench::mark() to benchmark the two versions with N = 1e7, setting check = FALSE in bench::mark() as the generated random numbers will differ.\nCommit your changes to git"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#importing-other-c-code",
+    "href": "slides/07-Rcpp-packages/index.html#importing-other-c-code",
+    "title": "Rcpp in packages",
+    "section": "Importing other C++ code",
+    "text": "Importing other C++ code\nSome packages provide a custom &lt;packagename&gt;.h or other C++ headers.\n\nThe header maybe not be called &lt;packagename&gt;.h!\nThe namespace may have a different name from the package or the header file and may be nested.\nIf the header include headers from other packages, you will need to add these to LinkingTo.\nIf the package has custom build settings (e.g. using C++11), you will need to use these for your package.\n\nThe documentation should clarify what is needed for a particular package."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#example-bh-package",
+    "href": "slides/07-Rcpp-packages/index.html#example-bh-package",
+    "title": "Rcpp in packages",
+    "section": "Example: BH Package",
+    "text": "Example: BH Package\nThe BH package provides header files for the Boost C++ libraries.\nThe header files have .hpp extension and are nested in directories. The namespace is similarly nested:\n\n#include &lt;Rcpp.h&gt;\n#include &lt;boost/integer/common_factor.hpp&gt;\n\n// [[Rcpp::export]]\nint computeGCD(int a, int b) {\n    return boost::integer::gcd(a, b);\n}\n\nInclude BH in LinkingTo: to add this function to a package.\n\ngcd is a function to compute the greatest common denominator\n.hpp extension: header files for C++"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#rcpparmadillo-1",
+    "href": "slides/07-Rcpp-packages/index.html#rcpparmadillo-1",
+    "title": "Rcpp in packages",
+    "section": "RcppArmadillo",
+    "text": "RcppArmadillo\nThe RcppArmadillo package provides headers for the Armadillo library for linear algebra & scientific computing.\nThe header to include is RcppArmadillo.h, which provides the armadillo header defining the arma namespace, e.g. \n\n#include &lt;RcppArmadillo.h&gt;\n// [[Rcpp::depends(RcppArmadillo)]]\n\n// [[Rcpp::export]]\narma::vec getEigenValues(arma::mat M) {\n    return arma::eig_sym(M);\n}"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#using-rcpparmadillo",
+    "href": "slides/07-Rcpp-packages/index.html#using-rcpparmadillo",
+    "title": "Rcpp in packages",
+    "section": "Using RcppArmadillo",
+    "text": "Using RcppArmadillo\nTo use RcppArmadillo in a package, we need to\n\nAdd RcppArmadillo to LinkingTo\nEnable OpenMP support and link against the BLAS and LAPACK linear algebra libraries by defining compilation options in src/Makevars and src/Makevars.win.\n\nBoth can be done with usethis::use_rcpp_armadillo().\nThe first time you call it, you may be asked whether to install RcppArmadillo. Choose the affirmative option.\n\nOpenMP for parallel processing\nhttps://stackoverflow.com/q/68959897/173755"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#notes-use_rcpp_armadillo",
+    "href": "slides/07-Rcpp-packages/index.html#notes-use_rcpp_armadillo",
+    "title": "Rcpp in packages",
+    "section": "Notes: use_rcpp_armadillo()",
+    "text": "Notes: use_rcpp_armadillo()\n\nAs well as doing the general setup to allow a package to use RcppArmadillo, it also creates a src directory and a .cpp file to edit.\nIf you already have a .cpp file in a src directory, by default it may try to overwrite it. If it does, select one of the negative options.\n\nYou need to specify the name of a new .cpp as an argument instead, e.g. use_rcpp_armadillo(\"new_file\")\nThe function adds to the top of the .cpp file\n#include &lt;Rcpp.h&gt;\nusing namespace Rcpp;\n\nThis is a bug. You need instead\n\n#include &lt;RcppArmadillo.h&gt;\n// [[Rcpp::depends(RcppArmadillo)]]"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#extra-note-for-apple-silicon-macs",
+    "href": "slides/07-Rcpp-packages/index.html#extra-note-for-apple-silicon-macs",
+    "title": "Rcpp in packages",
+    "section": "Extra note for Apple Silicon Macs",
+    "text": "Extra note for Apple Silicon Macs\nIf you have an Apple Silicon Mac, you will also need to do the following:\n\nopen your global Makevars by calling usethis::edit_r_makevars()\nAdd the following code:\nFLIBS= -L/opt/R/arm64/gfortran/lib\nSession &gt; Restart R (or Cmd + Shift + 0)"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#your-turn-4",
+    "href": "slides/07-Rcpp-packages/index.html#your-turn-4",
+    "title": "Rcpp in packages",
+    "section": "Your turn",
+    "text": "Your turn\n\n\nRun usethis::use_rcpp_armadillo(\"inner_prod\") to set the package up to use RcppArmadillo and create a new .cpp file.\nIn inner_prod.cpp, edit the #include statement for RcppArmadillo and add the code\n\n\n// [[ Rcpp::export]]\ndouble inner_prod (arma::vec x, arma::vec y) {\n    arma::mat z = x.t() * y ;\n    return(z(0)) ;\n}\n\n\nRun Build &gt; Document to create the R wrapper.\nRun devtools::load_all() to load the function and try it out.\nCommit your changes to git.\nPush all your changes to git from this session.\n\n\n\nThere are issues with lgfortran on macOS. Currently trying to work out how to fix these."
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#references",
+    "href": "slides/07-Rcpp-packages/index.html#references",
+    "title": "Rcpp in packages",
+    "section": "References",
+    "text": "References\n\nR Core Team, Writing R Extensions, https://cran.r-project.org/doc/manuals/r-release/R-exts.html"
+  },
+  {
+    "objectID": "slides/07-Rcpp-packages/index.html#license",
+    "href": "slides/07-Rcpp-packages/index.html#license",
+    "title": "Rcpp in packages",
     "section": "License",
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
   },
