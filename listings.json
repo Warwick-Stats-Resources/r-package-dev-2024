@@ -1,6 +1,8 @@
 [
   {
     "listing": "/content.html",
-    "items": []
+    "items": [
+      "/content/01-welcome/index.html"
+    ]
   }
 ]

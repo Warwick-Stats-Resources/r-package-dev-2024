@@ -4,49 +4,63 @@
     "href": "content.html",
     "title": "Content",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nInvalid Date\n\n\nWelcome and introduction\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "R Packages Development Workshop",
+    "title": "R Package Development Workshop",
     "section": "",
-    "text": "Welcome to the R Packages Development Workshop!\nThis is a two-day workshop, taking place at The University of Warwick, June 27th-27th, 2024.\nIt is aimed primarily at graduate students in the Department of Statistics, but open to all interested members of the university, space permitting.\nPlease see the join page for details on how to sign-up for the course."
+    "text": "Welcome to the R Package Development Workshop!\nThis is a two-day workshop, taking place at The University of Warwick, June 27th-27th, 2024.\nIt is aimed primarily at graduate students in the Department of Statistics, but open to all interested members of the university, space permitting.\nPlease see the join page for details on how to sign-up for the course."
   },
   {
     "objectID": "index.html#syllabus-overview",
     "href": "index.html#syllabus-overview",
-    "title": "R Packages Development Workshop",
+    "title": "R Package Development Workshop",
     "section": "Syllabus overview",
     "text": "Syllabus overview\nThis is a hands-on workshop covering the entire process of creating an R package: including functions and data, checking and testing, all levels of documentation, publication and maintenance. The final session covers the advanced topic of using Rcpp code in a package.\nAll slides and further resources can be accessed from the content page and also via the schedule."
   },
   {
     "objectID": "index.html#session-details",
     "href": "index.html#session-details",
-    "title": "R Packages Development Workshop",
+    "title": "R Package Development Workshop",
     "section": "Session details",
     "text": "Session details\n   June 26th-27th, 2024\n   10:30–16:30\n   Room A1.01, Zeeman Building, University of Warwick\n   Lunch provided each day\n   See the full schedule."
   },
   {
     "objectID": "index.html#instructor-details",
     "href": "index.html#instructor-details",
-    "title": "R Packages Development Workshop",
+    "title": "R Package Development Workshop",
     "section": "Instructor details",
     "text": "Instructor details\n   Ella Kaye and Heather Turner\n   ella.m.kaye@warwick.ac.uk and h.turner.1@warwick.ac.uk"
   },
   {
     "objectID": "index.html#prerequistes",
     "href": "index.html#prerequistes",
-    "title": "R Packages Development Workshop",
+    "title": "R Package Development Workshop",
     "section": "Prerequistes",
     "text": "Prerequistes\nPlease see the prerequisites page for details on getting set up in advance of the first session."
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "objectID": "content/01-welcome/index.html",
+    "href": "content/01-welcome/index.html",
+    "title": "Welcome and introduction",
     "section": "",
-    "text": "Wednesday June 26th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and Introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage Foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nThursday June 27th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in Packages\nHeather Turner"
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-welcome/index.html#slides",
+    "href": "content/01-welcome/index.html#slides",
+    "title": "Welcome and introduction",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-welcome/index.html#resources",
+    "href": "content/01-welcome/index.html#resources",
+    "title": "Welcome and introduction",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
   },
   {
     "objectID": "join.html",
@@ -54,6 +68,48 @@
     "title": "Apply for the workshop",
     "section": "",
     "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.\nThe form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.\nIf you have access to SkillsForge, you can also sign-up there. Note that you have to sign-up at the apply link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.\nSkillsForge"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Wednesday June 26th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nThursday June 27th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
+  },
+  {
+    "objectID": "slides/01-welcome/index.html#instructors",
+    "href": "slides/01-welcome/index.html#instructors",
+    "title": "Welcome and introduction",
+    "section": "Instructors",
+    "text": "Instructors\n\n\nElla Kaye\n\n\nResearch Software Engineer\nDepartment of Statistics\nUniversity of Warwick\nhttps://warwick.ac.uk/ellakaye\n\n\nHeather Turner\n\n\nRSE Fellow\nDepartment of Statistics\nUniversity of Warwick\nhttps://warwick.ac.uk/heatherturner"
+  },
+  {
+    "objectID": "slides/01-welcome/index.html#course-material",
+    "href": "slides/01-welcome/index.html#course-material",
+    "title": "Welcome and introduction",
+    "section": "Course material",
+    "text": "Course material\n\nWebsite and slides\nhttps://Warwick-Stats-Resources.github.io/r-packages-2024\nWebsite and slides repo\nhttps://github.com/Warwick-Stats-Resources/r-packages-2024\nCourse text: R Packages (2nd edition), Hadley Wickham and Jenny Bryan\nhttps://r-pkgs.org"
+  },
+  {
+    "objectID": "slides/01-welcome/index.html#schedule-wednesday-june-26th",
+    "href": "slides/01-welcome/index.html#schedule-wednesday-june-26th",
+    "title": "Welcome and introduction",
+    "section": "Schedule: Wednesday June 26th",
+    "text": "Schedule: Wednesday June 26th\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner"
+  },
+  {
+    "objectID": "slides/01-welcome/index.html#schedule-thursday-june-27th",
+    "href": "slides/01-welcome/index.html#schedule-thursday-june-27th",
+    "title": "Welcome and introduction",
+    "section": "Schedule: Thursday June 27th",
+    "text": "Schedule: Thursday June 27th\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
+  },
+  {
+    "objectID": "slides/01-welcome/index.html#skillsforge",
+    "href": "slides/01-welcome/index.html#skillsforge",
+    "title": "Welcome and introduction",
+    "section": "SkillsForge",
+    "text": "SkillsForge\nSign-up on SkillsForge for credit there (assuming you attend the whole workshop).\nOr, go to https://skillsforge.warwick.ac.uk and search for “ST5”."
   },
   {
     "objectID": "prerequisites.html",

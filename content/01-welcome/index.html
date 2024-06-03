@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ella Kaye">
+<meta name="author" content="Heather Turner">
 
-<title>R Packages 2024 - R Package Development Workshop</title>
+<title>R Packages 2024 - Welcome and introduction</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/warwick-monogram-favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/warwick-monogram-favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">R Packages 2024</span>
     </a>
   </div>
@@ -92,19 +92,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./join.html"> 
+    <a class="nav-link" href="../../join.html"> 
 <span class="menu-text">Join</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./prerequisites.html"> 
+    <a class="nav-link" href="../../prerequisites.html"> 
 <span class="menu-text">Prerequisites</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
+    <a class="nav-link" href="../../schedule.html"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./content.html"> 
+    <a class="nav-link" href="../../content.html"> 
 <span class="menu-text">Content</span></a>
   </li>  
   <li class="nav-item compact">
@@ -128,10 +128,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#syllabus-overview" id="toc-syllabus-overview" class="nav-link active" data-scroll-target="#syllabus-overview">Syllabus overview</a></li>
-  <li><a href="#session-details" id="toc-session-details" class="nav-link" data-scroll-target="#session-details">Session details</a></li>
-  <li><a href="#instructor-details" id="toc-instructor-details" class="nav-link" data-scroll-target="#instructor-details">Instructor details</a></li>
-  <li><a href="#prerequistes" id="toc-prerequistes" class="nav-link" data-scroll-target="#prerequistes">Prerequistes</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a>
+  <ul class="collapse">
+  <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">Reading</a></li>
+  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -140,14 +142,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Package Development Workshop</h1>
+<h1 class="title">Welcome and introduction</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ella Kaye </p>
+             <p>Heather Turner </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Invalid Date</p>
+    </div>
+  </div>
   
     
   </div>
@@ -157,33 +172,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to the R Package Development Workshop!</p>
-<p>This is a two-day workshop, taking place at The University of Warwick, June 27th-27th, 2024.</p>
-<p>It is aimed primarily at graduate students in the Department of Statistics, but open to all interested members of the university, space permitting.</p>
-<p>Please see the <a href="./join.html">join</a> page for details on how to sign-up for the course.</p>
-<section id="syllabus-overview" class="level2">
-<h2 class="anchored" data-anchor-id="syllabus-overview">Syllabus overview</h2>
-<p>This is a hands-on workshop covering the entire process of creating an R package: including functions and data, checking and testing, all levels of documentation, publication and maintenance. The final session covers the advanced topic of using Rcpp code in a package.</p>
-<p>All slides and further resources can be accessed from the <a href="./content.html">content</a> page and also via the <a href="./schedule.html">schedule</a>.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>Here’s a link to the <a href="../../slides/01-welcome/index.html" target="_blank">slides</a> in a new window.</p>
+<p>Here are the slides embedded:</p>
+<iframe class="slide-deck ar3x2" src="../../slides/01-welcome/index.html" title="01-welcome slides">
+</iframe>
 </section>
-<section id="session-details" class="level2">
-<h2 class="anchored" data-anchor-id="session-details">Session details</h2>
-<p><i class="fa-solid fa-calendar" aria-label="calendar"></i> &nbsp; June 26th-27th, 2024</p>
-<p><i class="fa-solid fa-clock" aria-label="clock"></i> &nbsp; 10:30–16:30</p>
-<p><i class="fa-solid fa-location-dot" aria-label="location-dot"></i> &nbsp; Room A1.01, Zeeman Building, University of Warwick</p>
-<p><i class="fa-solid fa-utensils" aria-label="utensils"></i> &nbsp; Lunch provided each day</p>
-<p><i class="fa-solid fa-calendar-alt" aria-label="calendar-alt"></i> &nbsp; See the full <a href="./schedule.html">schedule</a>.</p>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<section id="reading" class="level3">
+<h3 class="anchored" data-anchor-id="reading">Reading</h3>
+<ul>
+<li><p>Wickham, H and Bryan, J, <em>R Packages</em> (2nd edition)</p>
+<p><a href="https://r-pkgs.org" class="uri">https://r-pkgs.org</a></p></li>
+<li><p>R Core Team, <em>Writing R Extensions</em></p>
+<p><a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html" class="uri">https://cran.r-project.org/doc/manuals/r-release/R-exts.html</a></p></li>
+</ul>
 </section>
-<section id="instructor-details" class="level2">
-<h2 class="anchored" data-anchor-id="instructor-details">Instructor details</h2>
-<p><i class="fa-solid fa-user" aria-label="user"></i> &nbsp; <a href="https://warwick.ac.uk/ellakaye">Ella Kaye</a> and <a href="https://warwick.ac.uk/heatherturner">Heather Turner</a></p>
-<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> &nbsp; <a href="mailto:ella.m.kaye@warwick.ac.uk">ella.m.kaye@warwick.ac.uk</a> and <a href="mailto:h.turner.1@warwick.ac.uk">h.turner.1@warwick.ac.uk</a></p>
-</section>
-<section id="prerequistes" class="level2">
-<h2 class="anchored" data-anchor-id="prerequistes">Prerequistes</h2>
-<p>Please see the <a href="./prerequisites.html">prerequisites</a> page for details on getting set up in advance of the first session.</p>
+<section id="packages" class="level3">
+<h3 class="anchored" data-anchor-id="packages">Packages</h3>
+<ul>
+<li><p><strong>devtools</strong></p>
+<p><a href="https://devtools.r-lib.org" class="uri">https://devtools.r-lib.org</a></p></li>
+<li><p><strong>usethis</strong></p>
+<p><a href="https://usethis.r-lib.org" class="uri">https://usethis.r-lib.org</a></p></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
