@@ -2,42 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content.html</loc>
-    <lastmod>2024-06-03T09:24:59.162Z</lastmod>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/index.html</loc>
-    <lastmod>2024-06-03T09:24:59.166Z</lastmod>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
   </url>
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/02-package-foundations/index.html</loc>
-    <lastmod>2024-06-03T09:24:59.174Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/schedule.html</loc>
-    <lastmod>2024-06-03T09:24:59.166Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/02-package-foundations/index.html</loc>
-    <lastmod>2024-06-03T09:24:59.162Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/join.html</loc>
-    <lastmod>2024-06-03T09:24:59.166Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/01-welcome/index.html</loc>
-    <lastmod>2024-06-03T09:24:59.162Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/03-documentation/index.html</loc>
+    <lastmod>2024-06-03T09:32:14.565Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/00-template/index.html</loc>
-    <lastmod>2024-06-03T09:24:59.166Z</lastmod>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/01-welcome/index.html</loc>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/02-package-foundations/index.html</loc>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/join.html</loc>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/content/03-documentation/index.html</loc>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/schedule.html</loc>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/02-package-foundations/index.html</loc>
+    <lastmod>2024-06-03T09:32:14.561Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/slides/01-welcome/index.html</loc>
-    <lastmod>2024-06-03T09:24:59.170Z</lastmod>
+    <lastmod>2024-06-03T09:32:14.561Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/r-packages-2024/prerequisites.html</loc>
-    <lastmod>2024-06-03T09:24:59.166Z</lastmod>
+    <lastmod>2024-06-03T09:32:14.553Z</lastmod>
   </url>
 </urlset>

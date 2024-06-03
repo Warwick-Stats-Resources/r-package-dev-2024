@@ -3,7 +3,8 @@
     "listing": "/content.html",
     "items": [
       "/content/01-welcome/index.html",
-      "/content/02-package-foundations/index.html"
+      "/content/02-package-foundations/index.html",
+      "/content/03-documentation/index.html"
     ]
   }
 ]
