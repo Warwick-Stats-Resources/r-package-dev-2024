@@ -13,8 +13,8 @@
 
   <meta name="author" content="Heather Turner and Ella Kaye">
   <meta name="author" content="Department of Statistics">
-  <meta name="dcterms.date" content="2024-06-26">
-  <title>R Packages 2024 - Welcome and introduction</title>
+  <meta name="dcterms.date" content="2026-06-26">
+  <title>R Packages 2024 - Testing</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,6 +32,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #adadbd;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #adadbd;  padding-left: 4px; }
+    div.sourceCode
+      { color: #2e2e2f;  }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #2e2e2f; } /* Normal */
+    code span.al { color: #ad2b32; } /* Alert */
+    code span.an { color: #494957; } /* Annotation */
+    code span.at { color: #59346d; } /* Attribute */
+    code span.bn { color: #ad2b32; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #c5651d; } /* ControlFlow */
+    code span.ch { color: #529a8a; } /* Char */
+    code span.cn { color: #c5651d; } /* Constant */
+    code span.co { color: #494957; } /* Comment */
+    code span.cv { color: #494957; font-style: italic; } /* CommentVar */
+    code span.do { color: #494957; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad2b32; } /* DataType */
+    code span.dv { color: #ad2b32; } /* DecVal */
+    code span.er { color: #ad2b32; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad2b32; } /* Float */
+    code span.fu { color: #0090af; } /* Function */
+    code span.im { color: #59346d; } /* Import */
+    code span.in { color: #494957; } /* Information */
+    code span.kw { color: #2e2e2f; } /* Keyword */
+    code span.op { color: #494957; } /* Operator */
+    code span.ot { color: #494957; } /* Other */
+    code span.pp { color: #ad2b32; } /* Preprocessor */
+    code span.re { color: #0090af; } /* RegionMarker */
+    code span.sc { color: #494957; } /* SpecialChar */
+    code span.ss { color: #529a8a; } /* SpecialString */
+    code span.st { color: #529a8a; } /* String */
+    code span.va { color: #2e2e2f; } /* Variable */
+    code span.vs { color: #529a8a; } /* VerbatimString */
+    code span.wa { color: #494957; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -329,7 +395,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-color="#3C1053" data-background-image="../../images/warwick-logo-white.png" data-background-position="100% 0%" data-background-size="15%" class="quarto-title-block center">
-  <h1 class="title">Welcome and introduction</h1>
+  <h1 class="title">Testing</h1>
   <p class="subtitle">R Packages</p>
 
 <div class="quarto-title-authors">
@@ -345,142 +411,390 @@ Department of Statistics
 </div>
 </div>
 
-  <p class="date">June 26, 2024</p>
+  <p class="date">June 26, 2026</p>
 </section>
-<section>
-<section id="hello" class="title-slide slide level1 inverse center-h center">
-<h1>Hello!</h1>
-
-</section>
-<section id="instructors" class="slide level2">
-<h2>Instructors</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="ella-kaye">Ella Kaye</h3>
-<p><img data-src="images/ellakaye.jpeg" style="width:50.0%"></p>
-<div class="smaller80">
-<p>Research Software Engineer</p>
-<p>Department of Statistics</p>
-<p>University of Warwick</p>
-<p><a href="https://warwick.ac.uk/ellakaye" class="uri">https://warwick.ac.uk/ellakaye</a></p>
-</div>
-</div><div class="column" style="width:50%;">
-<h3 id="heather-turner">Heather Turner</h3>
-<p><img data-src="images/heatherturner.jpeg" style="width:50.0%"></p>
-<div class="smaller80">
-<p>RSE Fellow</p>
-<p>Department of Statistics</p>
-<p>University of Warwick</p>
-<p><a href="https://warwick.ac.uk/heatherturner" class="uri">https://warwick.ac.uk/heatherturner</a></p>
-</div>
-</div>
-</div>
-</section>
-<section id="course-material" class="slide level2">
-<h2>Course material</h2>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
 <ul>
-<li><p>Website and slides</p>
-<p><a href="https://Warwick-Stats-Resources.github.io/r-packages-2024" class="uri">https://Warwick-Stats-Resources.github.io/r-packages-2024</a></p></li>
-<li><p>Website and slides repo</p>
-<p><a href="https://github.com/Warwick-Stats-Resources/r-packages-2024" class="uri">https://github.com/Warwick-Stats-Resources/r-packages-2024</a></p></li>
-<li><p>Course text: R Packages (2nd edition), Hadley Wickham and Jenny Bryan</p>
-<p><a href="https://r-pkgs.org" class="uri">https://r-pkgs.org</a></p></li>
+<li>Unit testing with <strong>testthat</strong></li>
+<li>Test driven development</li>
 </ul>
 </section>
-<section id="schedule-wednesday-june-26th" class="slide level2">
-<h2>Schedule: Wednesday June 26th</h2>
-<div class="smaller75">
-<table>
-<thead>
-<tr class="header">
-<th>Time</th>
-<th>Session</th>
-<th>Presenter</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>10:30–10:40</td>
-<td><a href="../../content/01-welcome/index.html">Welcome and introduction</a></td>
-<td>Ella Kaye, Heather Turner</td>
-</tr>
-<tr class="even">
-<td>10:40–12:00</td>
-<td><a href="../../content/02-package-foundations/index.html">Package foundations</a></td>
-<td>Ella Kaye</td>
-</tr>
-<tr class="odd">
-<td>12:00–13:00</td>
-<td>Lunch</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>13:00–14:30</td>
-<td><a href="../../content/03-documentation/index.html">Function documentation and dependencies</a></td>
-<td>Ella Kaye</td>
-</tr>
-<tr class="odd">
-<td>14:30–15:00</td>
-<td>Coffee break</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>15:00–16:30</td>
-<td><a href="../../content/04-testing/index.html">Testing</a></td>
-<td>Heather Turner</td>
-</tr>
-</tbody>
-</table>
+<section>
+<section id="unit-testing-with-testthat" class="title-slide slide level1 inverse center">
+<h1>Unit testing with testthat</h1>
+
+</section>
+<section id="why-test" class="slide level2">
+<h2>Why test?</h2>
+<p>We build new functions one bit at a time.</p>
+<p>What if a new thing we add changes the existing functionality?</p>
+<p>How can we check and be sure all the old functionality still works with New Fancy Feature?</p>
+<p>Unit Tests!</p>
+<aside class="notes">
+<p>Gives confidence to package users as well</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="set-up-test-infrastructure" class="slide level2">
+<h2>Set up test infrastructure</h2>
+<p>From the root of a package project:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>usethis<span class="sc">::</span><span class="fu">use_testthat</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>✔ Adding 'testthat' to Suggests field in DESCRIPTION
+✔ Setting Config/testthat/edition field in DESCRIPTION to '3'
+✔ Creating 'tests/testthat/'
+✔ Writing 'tests/testthat.R'
+• Call `use_test()` to initialize a basic test file and open it for editing.</code></pre>
+<p><code>tests/testthat.R</code> loads <strong>testthat</strong> and the package being tested, so you don’t need to add <code>library()</code> calls to the test files.</p>
+</section>
+<section id="tests-are-organised-in-three-layers" class="slide level2">
+<h2>Tests are organised in three layers</h2>
+
+<img data-src="images/test_organization.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>A file holds multiple related tests.</p>
+<p>A test groups together multiple expectations to test the output from a simple function, a range of possibilities for a single parameter from a more complicated function, or tightly related functionality from across multiple functions.</p>
+<p>An expectation is the atom of testing. It describes the expected result of a computation: Does it have the right value and right class?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-to-test" class="slide level2">
+<h2>What to test</h2>
+<p>Test every individual task the function completes separately.</p>
+<p>Check both for successful situations and for expected failure situations.</p>
+</section>
+<section id="expectations" class="slide level2">
+<h2>Expectations</h2>
+<p>Three expectations cover the vast majority of cases</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">expect_equal</span>(object, expected)</span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a><span class="fu">expect_error</span>(object, <span class="at">regexp =</span> <span class="cn">NULL</span>, <span class="at">class =</span> <span class="cn">NULL</span>)</span>
+<span id="cb3-4"><a></a></span>
+<span id="cb3-5"><a></a><span class="fu">expect_warning</span>(object, <span class="at">regexp =</span> <span class="cn">NULL</span>, <span class="at">class =</span> <span class="cn">NULL</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<aside class="notes">
+<p>It used to be standard practice to test for errors and warnings using regexp, but that has downsides - it’s not always clear why a test is failing. Testing via class is a more modern, safer approach, which we’ll use below.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="our-example-function" class="slide level2">
+<h2>Our example function</h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>animal_sounds <span class="ot">&lt;-</span> <span class="cf">function</span>(animal, sound) {</span>
+<span id="cb4-2"><a></a>  </span>
+<span id="cb4-3"><a></a>  <span class="cf">if</span> (<span class="sc">!</span>rlang<span class="sc">::</span><span class="fu">is_character</span>(animal, <span class="dv">1</span>)) {</span>
+<span id="cb4-4"><a></a>    cli<span class="sc">::</span><span class="fu">cli_abort</span>(<span class="st">"{.var animal} must be a single string!"</span>)</span>
+<span id="cb4-5"><a></a>  }</span>
+<span id="cb4-6"><a></a>  </span>
+<span id="cb4-7"><a></a>  <span class="cf">if</span> (<span class="sc">!</span>rlang<span class="sc">::</span><span class="fu">is_character</span>(sound, <span class="dv">1</span>)) {</span>
+<span id="cb4-8"><a></a>    cli<span class="sc">::</span><span class="fu">cli_abort</span>(<span class="st">"{.var sound} must be a single string!"</span>)</span>
+<span id="cb4-9"><a></a>  }</span>
+<span id="cb4-10"><a></a>  </span>
+<span id="cb4-11"><a></a>  <span class="fu">paste0</span>(<span class="st">"The "</span>, animal, <span class="st">" goes "</span>, sound, <span class="st">"!"</span>)</span>
+<span id="cb4-12"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="schedule-thursday-june-27th" class="slide level2">
-<h2>Schedule: Thursday June 27th</h2>
-<div class="smaller75">
-<table>
-<thead>
-<tr class="header">
-<th>Time</th>
-<th>Session</th>
-<th>Presenter</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>10:30–12:00</td>
-<td><a href="../../content/05-check-package-documentation/index.qmd">Package check and documentation</a></td>
-<td>Ella Kaye</td>
-</tr>
-<tr class="even">
-<td>12:00–13:00</td>
-<td>Lunch</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>13:00–14:30</td>
-<td><a href="../../content/06-data-publication-maintenance/index.qmd">Packaging data; Publication and maintenance</a></td>
-<td>Ella Kaye</td>
-</tr>
-<tr class="even">
-<td>14:30–15:00</td>
-<td>Coffee break</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>15:00–16:30</td>
-<td><a href="../../content/07-Rcpp-packages/index.qmd">Rcpp in packages</a></td>
-<td>Heather Turner</td>
-</tr>
-</tbody>
-</table>
+<section id="a-sample-test" class="slide level2">
+<h2>A sample test</h2>
+<p>First, create a test file for this function, in either way:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="co"># In RStudio, with `animal_sounds.R` the active file:</span></span>
+<span id="cb5-2"><a></a>usethis<span class="sc">::</span><span class="fu">use_test</span>()  </span>
+<span id="cb5-3"><a></a></span>
+<span id="cb5-4"><a></a><span class="co"># More generally</span></span>
+<span id="cb5-5"><a></a>usethis<span class="sc">::</span><span class="fu">use_test</span>(<span class="st">"animal_sounds"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>RStudio makes it really easy to swap between associated R scripts and tests.</p>
+<p>If the R file is open, <code>usethis::use_test()</code> (with no arguments) opens or creates the test.</p>
+<p>With the test file open, <code>usethis::use_r()</code> (with no arguments) opens or creates the R script.</p>
+</div>
+</div>
+</div>
 </div>
 </section>
-<section id="skillsforge" class="slide level2">
-<h2>SkillsForge</h2>
-<p>Sign-up on <a href="https://skillsforge.warwick.ac.uk/warwick/#he/dev/eventDetails,;em,providerCode=ST,providerOrgAlias=warwick,number=5,;">SkillsForge</a> for credit there (assuming you attend the whole workshop).</p>
-<p>Or, go to <a href="https://skillsforge.warwick.ac.uk" class="uri">https://skillsforge.warwick.ac.uk</a> and search for “ST5”.</p>
+<section id="add-a-test" class="slide level2">
+<h2>Add a test</h2>
+<p>In the now-created and open <code>tests/testthat/test-animal_sounds.R</code> script:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">test_that</span>(<span class="st">"animal_sounds produces expected strings"</span>, {</span>
+<span id="cb6-2"><a></a>  dog_woof <span class="ot">&lt;-</span> <span class="fu">animal_sounds</span>(<span class="st">"dog"</span>, <span class="st">"woof"</span>)</span>
+<span id="cb6-3"><a></a>  <span class="fu">expect_equal</span>(dog_woof, </span>
+<span id="cb6-4"><a></a>               <span class="st">"The dog goes woof!"</span>)</span>
+<span id="cb6-5"><a></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="run-tests" class="slide level2">
+<h2>Run tests</h2>
+<p>Tests can be run interactively like any other R code. The output will appear in the console, e.g.&nbsp;for a successful test:</p>
+<pre><code>Test passed 😀</code></pre>
+<p>Alternatively, we can run tests in the background with the output appearing in the build pane.</p>
+<ul>
+<li><code>testthat::test_file()</code> – run all tests in a file (‘Run Tests’ button)</li>
+<li><code>devtools::test()</code> – run all tests in a package (Ctrl/Cmd + Shift + T, or Build &gt; Test Package)</li>
+</ul>
+</section>
+<section id="testing-equality" class="slide level2">
+<h2>Testing equality</h2>
+<p>For numeric values, <code>expect_equal()</code> allows some tolerance:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="fu">expect_equal</span>(<span class="dv">10</span>, <span class="dv">10</span> <span class="sc">+</span> <span class="fl">1e-7</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a><span class="fu">expect_equal</span>(<span class="dv">10</span>, <span class="dv">10</span> <span class="sc">+</span> <span class="fl">1e-4</span>, <span class="at">tolerance =</span> <span class="fl">1e-4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">expect_equal</span>(<span class="dv">10</span>, <span class="dv">10</span> <span class="sc">+</span> <span class="fl">1e-5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<pre><code>Error: 10 not equal to 10 + 1e-05.
+1/1 mismatches
+[1] 10 - 10 == -1e-05</code></pre>
+</div>
+</div>
+<p>Note that when the expectation is met, there is nothing printed.</p>
+<div class="fragment">
+<p>Use <code>expect_identical()</code> to test exact equivalence.</p>
+<p>Use <code>expect_equal(ignore_attr = TRUE)</code> to ignore different attributes (e.g.&nbsp;names).</p>
+</div>
+</section>
+<section id="expect_error-expect_warning" class="slide level2">
+<h2><code>expect_error()</code>, <code>expect_warning()</code></h2>
+<p>When we expect an error/warning when the code is run, we need to pass the call to <code>expect_error()</code>/<code>expect_warning()</code> directly.</p>
+<p>One way is to expect a text outcome using a regular expression:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">test_that</span>(<span class="st">"handles invalid inputs"</span>, {</span>
+<span id="cb12-2"><a></a>    <span class="fu">expect_error</span>(<span class="fu">animal_sounds</span>(<span class="st">"dog"</span>, <span class="fu">c</span>(<span class="st">"woof"</span>, <span class="st">"bow wow wow"</span>)), </span>
+<span id="cb12-3"><a></a>                 <span class="st">"`sound` must be a single string"</span>)</span>
+<span id="cb12-4"><a></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>However, the <code>regexp</code> can get fiddly, especially if there are characters to escape. There is a more modern, precise way…</p>
+<aside class="notes">
+<p>have to call <code>animal_sounds</code> within <code>expect_error</code> - if we try calling it first (as we did in <code>expect_equal</code>) our code will throw an error before it has a chance to test for it!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="using-a-condition-class" class="slide level2">
+<h2>Using a condition <code>class</code></h2>
+<p>When using <code>cli::cli_abort()</code> and <code>cli::cli_warn()</code> to throw errors and warnings, we can signal the condition with a <code>class</code>, which we can then use in our tests.</p>
+<p>First, we need to modify the calls to <code>cli::cli_abort</code> in <code>animal_sounds()</code></p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a><span class="cf">if</span> (<span class="sc">!</span>rlang<span class="sc">::</span><span class="fu">is_character</span>(sound, <span class="dv">1</span>)) {</span>
+<span id="cb13-2"><a></a>  cli<span class="sc">::</span><span class="fu">cli_abort</span>(</span>
+<span id="cb13-3"><a></a>    <span class="fu">c</span>(<span class="st">"{.var sound} must be a single string!"</span>,</span>
+<span id="cb13-4"><a></a>      <span class="st">"i"</span> <span class="ot">=</span> <span class="st">"It was {.type {sound}} of length {length(sound)} instead."</span>),</span>
+<span id="cb13-5"><a></a>    <span class="at">class =</span> <span class="st">"error_not_single_string"</span></span>
+<span id="cb13-6"><a></a>  )</span>
+<span id="cb13-7"><a></a>}</span>
+<span id="cb13-8"><a></a></span>
+<span id="cb13-9"><a></a><span class="co"># and same for `animal` argument</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="using-a-conditions-class-in-tests" class="slide level2">
+<h2>Using a condition’s class in tests</h2>
+<p>We can then check for this class in the test</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a><span class="fu">test_that</span>(<span class="st">"handles invalid inputs"</span>, {</span>
+<span id="cb14-2"><a></a>    <span class="fu">expect_error</span>(<span class="fu">animal_sounds</span>(<span class="st">"dog"</span>, <span class="fu">c</span>(<span class="st">"woof"</span>, <span class="st">"bow wow wow"</span>)), </span>
+<span id="cb14-3"><a></a>                 <span class="at">class =</span> <span class="st">"error_not_single_string"</span>) </span>
+<span id="cb14-4"><a></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Advantages of using <code>class</code>:</p>
+<ul>
+<li>It is under your control</li>
+<li>If the condition originates from base R or another package, proceed with caution – a good reminder to re-consider the wisdom of testing a condition that is not fully under your control in the first place.</li>
+</ul>
+<p><span class="smaller80">From <a href="https://r-pkgs.org/testing-basics.html#testing-errors" class="uri">https://r-pkgs.org/testing-basics.html#testing-errors</a></span></p>
+<aside class="notes">
+<p>Need to use argument name <code>class</code> as not matched by position (regexp comes before first)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="your-turn" class="slide level2">
+<h2>Your turn</h2>
+<ol type="1">
+<li>Create a test file for <code>animal_sounds()</code> and add the tests defined in the slides.</li>
+<li>Add a new expectation to the test “handles invalid inputs” to test the expected behaviour when a factor of length 1 is passed as the <code>sound</code> argument.</li>
+<li>Run the updated test by sending the code chunk to the console.</li>
+<li>Run all the tests.</li>
+<li>Commit your changes to the repo.</li>
+</ol>
+<aside class="notes">
+<p>animal_sounds(factor(“cat”), “miaow”))</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="snapshot-tests" class="slide level2">
+<h2>Snapshot tests</h2>
+<p>Sometimes it is difficult to define the expected output, e.g.&nbsp;to test images or output printed to the console. <code>expect_snapshot()</code> captures all messages, warnings, errors, and output from code.</p>
+<p>When we expect the code to throw an error (e.g.&nbsp;if we want to test the appearance of an informative message), we need to specify <code>error = TRUE</code>.</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a><span class="fu">test_that</span>(<span class="st">"error message for invalid input"</span>, {</span>
+<span id="cb15-2"><a></a>  <span class="fu">expect_snapshot</span>(<span class="fu">animal_sounds</span>(<span class="st">"dog"</span>, <span class="fu">c</span>(<span class="st">"woof"</span>, <span class="st">"bow wow wow"</span>)),</span>
+<span id="cb15-3"><a></a>                  <span class="at">error =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb15-4"><a></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Snapshot tests can not be run interactively by sending to the console, instead we must use <code>devtools::test()</code> or <code>testthat::testfile()</code>.</p>
+<aside class="notes">
+<p>expect_error for testing that an error is thrown, expect_snapshot for testing the appearance of the error message</p>
+<p>snapshot test skipped on CRAN by default - use other functions to test correctness where possible.</p>
+<p>Equivalently Build menu “Test Package” or RStudio code editor “Run tests” button</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="create-snapshot" class="slide level2">
+<h2>Create snapshot</h2>
+<p>Run the tests once to create the snapshot</p>
+<pre><code>── Warning (test-animal_sounds.R:16:3): error message for invalid input ──
+Adding new snapshot:
+Code
+  animal_sounds("dog", c("woof", "bow wow wow"))
+Error &lt;error_not_single_string&gt;
+  `sound` must be a single string!
+  i It was a character vector of length 2 instead.</code></pre>
+<p>An <code>animal_sounds.md</code> file is created in <code>tests/testhat/_snaps</code> with the code and output.</p>
+</section>
+<section id="test-against-a-snapshot" class="slide level2">
+<h2>Test against a snapshot</h2>
+<div class="smaller90">
+<p>Next time the tests are run the output will be compared against this snapshot.</p>
+<p>Suppose we update some of the error message in <code>animal_sounds</code> to</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a><span class="st">"{.var sound} must be a {.cls character} vector of length 1!"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>When we rerun the test, we’ll get a failure:</p>
+<pre><code>── Failure (test-animal_sounds.R:16:3): error message for invalid input ──
+Snapshot of code has changed:
+old vs new
+  "Code"
+  "  animal_sounds(\"dog\", c(\"woof\", \"bow wow wow\"))"
+  "Error &lt;error_not_single_string&gt;"
+- "  `sound` must be a single string!"
++ "  `sound` must be a &lt;character&gt; vector of length 1!"
+  "  i It was a character vector of length 2 instead."
+
+* Run testthat::snapshot_accept('animal_sounds') to accept the change.
+* Run testthat::snapshot_review('animal_sounds') to interactively review the change.</code></pre>
+</div>
+<aside class="notes">
+<p>Note the next steps with snapshot_accept and snapshot_review</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
-<section id="lets-begin" class="title-slide slide level1 inverse center-h center">
-<h1>Let’s begin…</h1>
+<section>
+<section id="test-driven-development" class="title-slide slide level1 inverse center">
+<h1>Test driven development</h1>
+
+</section>
+<section id="so-far-weve-done-this" class="slide level2">
+<h2>So far we’ve done this</h2>
+
+<img data-src="images/dev_cycle_before_testing.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="test-driven-development-is-a-new-workflow" class="slide level2">
+<h2>Test driven development is a new workflow</h2>
+
+<img data-src="images/dev_cycle_with_testing.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="your-turn-1" class="slide level2">
+<h2>Your turn</h2>
+<ol type="1">
+<li><p>Make this test pass</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>giraffe <span class="ot">&lt;-</span> <span class="fu">animalSounds</span>(<span class="st">"giraffe"</span>)</span>
+<span id="cb19-2"><a></a><span class="fu">expect_equal</span>(giraffe, </span>
+<span id="cb19-3"><a></a>             <span class="st">"The giraffe makes no sound."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Hint: set the default value for the sound argument to <code>NULL</code>.</p></li>
+<li><p>Commit your changes to the git repo.</p></li>
+<li><p>Push your commits from this session.</p></li>
+</ol>
+</section>
+<section id="when-you-stop-work-leave-a-test-failing." class="slide level2 inverse center center-h">
+<h2>When you stop work, leave a test failing.</h2>
+</section></section>
+<section>
+<section id="end-matter" class="title-slide slide level1 inverse center">
+<h1>End matter</h1>
+
+</section>
+<section id="references" class="slide level2">
+<h2>References</h2>
+<p>Wickham, H and Bryan, J, <em>R Packages</em> (2nd edn, in progress), <a href="https://r-pkgs.org" class="uri">https://r-pkgs.org</a>.</p>
+<p>R Core Team, <em>Writing R Extensions</em>, <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html" class="uri">https://cran.r-project.org/doc/manuals/r-release/R-exts.html</a></p>
+</section>
+<section id="license" class="slide level2">
+<h2>License</h2>
+<p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>).</p>
 <!-- needs to be last chunk of presentation otherwise creates an extra slide -->
 <!-- requires Quarto v1.3 -->
 <!-- tint80 for border, tint20 for title -->
@@ -533,7 +847,7 @@ div.callout-caution.callout-style-default .callout-title {
 
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
@@ -744,6 +1058,44 @@ div.callout-caution.callout-style-default .callout-title {
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

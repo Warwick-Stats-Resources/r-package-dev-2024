@@ -4,7 +4,8 @@
     "items": [
       "/content/01-welcome/index.html",
       "/content/02-package-foundations/index.html",
-      "/content/03-documentation/index.html"
+      "/content/03-documentation/index.html",
+      "/content/04-testing/index.html"
     ]
   }
 ]
