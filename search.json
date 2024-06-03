@@ -4,7 +4,7 @@
     "href": "content.html",
     "title": "Content",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nJun 26, 2024\n\n\nWelcome and introduction\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nJun 26, 2024\n\n\nWelcome and introduction\n\n\n\n\nJun 26, 2024\n\n\nPackage foundations\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -42,6 +42,314 @@
     "text": "Prerequistes\nPlease see the prerequisites page for details on getting set up in advance of the first session."
   },
   {
+    "objectID": "slides/02-package-foundations/index.html#overview",
+    "href": "slides/02-package-foundations/index.html#overview",
+    "title": "Package foundations",
+    "section": "Overview",
+    "text": "Overview\n\nWhy write a package?\nPackage structure and state\nPackage development setup\nCreating a package with a working function"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#why-write-a-package-1",
+    "href": "slides/02-package-foundations/index.html#why-write-a-package-1",
+    "title": "Package foundations",
+    "section": "Why write a package?",
+    "text": "Why write a package?\n\nYou want to generalise code\nYou want to document code\nYou want to test code\nYou want to share code\nYou want to create impact from your work"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#script-vs-package",
+    "href": "slides/02-package-foundations/index.html#script-vs-package",
+    "title": "Package foundations",
+    "section": "Script vs package",
+    "text": "Script vs package\n\n\n\n\n\n\n\nR script\nPackage\n\n\n\n\nOne-off data analysis\nProvides reusable components\n\n\nDefined by .R extension\nDefined by presence of DESCRIPTION file\n\n\nlibrary() calls\nImports defined in NAMESPACE file\n\n\nDocumentation in # comments\nDocumentation in files and Roxygen comments\n\n\nRun lines or source file\nInstall and restart\n\n\n\n\nreusable components: typically functions, but could also be R markdown template, Shiny app, data"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#package-structure",
+    "href": "slides/02-package-foundations/index.html#package-structure",
+    "title": "Package foundations",
+    "section": "Package structure",
+    "text": "Package structure\nAn R package is developed as a directory of source code files.\nThe names of files and directories must follow the specification laid out in the Writing R Extensions manual - we’ll cover the main components in this workshop.\nDirectory tree for an example RStudio package project:\n\n\nmypackage\n├── DESCRIPTION\n├── NAMESPACE\n├── R\n└── mypackage.Rproj"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#package-states",
+    "href": "slides/02-package-foundations/index.html#package-states",
+    "title": "Package foundations",
+    "section": "Package states",
+    "text": "Package states\n\n\n\n\n\n\n\nsource\n\n\n\n\n\n\n\nbundled\nbinary\ninstalled\nin-memory\n\n\n\n\n\nsource\n\n\nWhat you create and work on.\nSpecific directory structure with some particular components e.g., DESCRIPTION, an /R directory."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#package-states-1",
+    "href": "slides/02-package-foundations/index.html#package-states-1",
+    "title": "Package foundations",
+    "section": "Package states",
+    "text": "Package states\n\n\n\nsource\n\n\n\n\nbundled\n\n\n\n\n\n\n\nbinary\ninstalled\nin-memory\n\n\n\n\n\nbundled\n\n\nPackage files compressed to single .tar.gz file.\nAlso known as “source tarballs”.\nCreated by command line tool R CMD build\nUnpacked it looks very like the source package.\n\n\n\n\n\n\nIn the rare case that you need to make a bundle from a package you’re developing locally, use devtools::build(). Under the hood, this calls pkgbuild::build() and, ultimately, R CMD build, which is described further in the Building package tarballs section of Writing R Extensions."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#package-states-2",
+    "href": "slides/02-package-foundations/index.html#package-states-2",
+    "title": "Package foundations",
+    "section": "Package states",
+    "text": "Package states\n\n\n\nsource\nbundled\n\n\n\n\nbinary\n\n\n\n\n\n\n\ninstalled\nin-memory\n\n\n\n\n\nbinary\n\n\nCompressed copy of the package in installed form.\nAlso a single file.\nPlatform specific: .tgz (Mac) .zip (Windows).\nPackage developers submit a bundle to CRAN; CRAN makes and distributes binaries.\n\n\n\n\n\n\nA package in binary form is Platform specific. If you write a package for distribution on CRAN, you submit a bundle to CRAN then CRAN makes and distributes binaries\ninstall.packages() is usually downloading the binary\nTo understand the difference between package bundle and a package binary see https://r-pkgs.org/package-structure-state.html"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#package-states-3",
+    "href": "slides/02-package-foundations/index.html#package-states-3",
+    "title": "Package foundations",
+    "section": "Package states",
+    "text": "Package states\n\n\n\nsource\nbundled\nbinary\n\n\n\n\ninstalled\n\n\n\n\n\n\n\nin-memory\n\n\n\n\n\ninstalled\n\n\nA directory of files in a library directory.\nAny C/C++/Fortran code is in compiled form.\nHelp files, code and optionally data are in database form.\ninstall.packages() can install from source or from a binary"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#package-states-4",
+    "href": "slides/02-package-foundations/index.html#package-states-4",
+    "title": "Package foundations",
+    "section": "Package states",
+    "text": "Package states\n\n\n\nsource\nbundled\nbinary\ninstalled\n\n\n\n\nin-memory\n\n\n\n\n\n\n\n\n\n\n\n\nin-memory\n\n\nIf a package is installed, library() makes its function available by loading the package into memory and attaching it to the search path."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#buildinginstalling-packages-from-source",
+    "href": "slides/02-package-foundations/index.html#buildinginstalling-packages-from-source",
+    "title": "Package foundations",
+    "section": "Building/Installing Packages from Source",
+    "text": "Building/Installing Packages from Source\nThere are various reasons we may wish to build or install from source:\n\nInstalling a CRAN package where a binary has not yet been built for the latest version.\nInstalling a package from GitHub/other version-controlled source code repository, e.g.\n\n\nremotes::install_github(\"r-lib/revdepcheck\")\n\n\nInstalling our own package from the source code or building it to submit to CRAN.\n\nIf the package includes C/C++/Fortran code, we will need a suitable compiler."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#linux",
+    "href": "slides/02-package-foundations/index.html#linux",
+    "title": "Package foundations",
+    "section": "Linux",
+    "text": "Linux\nDebian/Ubuntu:\napt-get update\napt-get install r-base-dev\nFedora/RedHat: should be set up already."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#macos",
+    "href": "slides/02-package-foundations/index.html#macos",
+    "title": "Package foundations",
+    "section": "MacOS",
+    "text": "MacOS\nOption 1\n\nRegister as an Apple developer (for free)\n\nThen, in the terminal:\nxcode-select --install\n\n\nOption 2\n\nInstall the current release of full Xcode from the Mac App Store\nWithin XCode go to Preferences -&gt; Downloads and install the Command Line Tools\nMore convenient but installs a lot you don’t need"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#windows",
+    "href": "slides/02-package-foundations/index.html#windows",
+    "title": "Package foundations",
+    "section": "Windows",
+    "text": "Windows\n\nDownload the Rtools installer that matches your version of R from https://cran.r-project.org/bin/windows/Rtools/\nRun the installer, Rtools.exe, keeping the default settings."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#the-setup-well-be-using",
+    "href": "slides/02-package-foundations/index.html#the-setup-well-be-using",
+    "title": "Package foundations",
+    "section": "The setup we’ll be using",
+    "text": "The setup we’ll be using\nWe’ll be using the following tools for package development:\n\nRStudio: to manage and edit the package source code\ngit + GitHub: to version control the package source code\ndevtools and usethis R packages:\n\ndevtools for functions supporting the development workflow\nusethis for setup tasks\ndevtools depends on usethis package\nIntegrated with RStudio: projects, menu items/shortcuts\nUses system utilities internally: R CMD utilities bundled with R"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#follow-along",
+    "href": "slides/02-package-foundations/index.html#follow-along",
+    "title": "Package foundations",
+    "section": "Follow along",
+    "text": "Follow along\nFor the rest of this session, follow along on your own computer to make sure you’re set up for package development and to create our example package."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#devtools-and-usethis",
+    "href": "slides/02-package-foundations/index.html#devtools-and-usethis",
+    "title": "Package foundations",
+    "section": "devtools and usethis",
+    "text": "devtools and usethis\nWe can use devtools right away to check our system is setup for package development.\n\ninstall.packages(\"devtools\")\n\n\nlibrary(devtools)\n\n\nhas_devel()\n\nYour system is ready to build packages!\n\n\nInstalling devtools will also install usethis.\nCheck you have the latest version of usethis – 2.2.0 was recently released – and update if not:\n\npackageVersion(\"usethis\")\n\n[1] '2.2.3'"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#create-a-github-pat",
+    "href": "slides/02-package-foundations/index.html#create-a-github-pat",
+    "title": "Package foundations",
+    "section": "Create a GitHub PAT",
+    "text": "Create a GitHub PAT\nThe usethis package uses personal access tokens (PAT) to communicate with GitHub.\nFirst, make sure you’re signed into GitHub. Then run\n\nusethis::create_github_token()\n\n\n\nAdd Note describing the computer or use- case (e.g. personal-macbook-pro-2021, project-xyz)\nSelect expiration (recommend default 30 days)\nCheck scope (default selection is fine)\nClick ‘Generate Token’\nImportant! Copy token to clipboard, do not close window until stored (see next slide)!\nYou may want to store token in a secure vault, like 1Password or BitWarden"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#store-your-pat",
+    "href": "slides/02-package-foundations/index.html#store-your-pat",
+    "title": "Package foundations",
+    "section": "Store your PAT",
+    "text": "Store your PAT\nBy installing usethis, you will also have the gitcreds package to manage git credentials.\nPut your PAT into the Git credential store by running the following command and entering your copied PAT at the prompt (assume the PAT is on your clipboard).\n\ngitcreds::gitcreds_set()\n\n\nIf you don’t have a PAT stored, will prompt you to enter: paste!\nIf you do, you will be given a choice to keep/replace/see the password\n\nchoose as appropriate\nif replacing, paste!"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#sitrep-and-vaccinate",
+    "href": "slides/02-package-foundations/index.html#sitrep-and-vaccinate",
+    "title": "Package foundations",
+    "section": "sitrep and vaccinate",
+    "text": "sitrep and vaccinate\nAsk for a situation report:\n\nusethis::git_sitrep()\n\nCheck that the PAT is discovered.\nCheck that your user name and email are defined, else follow the configuration instructions from a previous Advanced R workshop.\nIt’s also a good idea to vaccinate. This implements best practice by adding files to your global .gitignore:\n\nusethis::git_vaccinate()"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#more-on-usethis-and-github-creds",
+    "href": "slides/02-package-foundations/index.html#more-on-usethis-and-github-creds",
+    "title": "Package foundations",
+    "section": "More on usethis and GitHub creds",
+    "text": "More on usethis and GitHub creds\nIt is well worth reading (and following all the instructions) in the following two usethis vignettes:\n\nusethis setup\nManaging Git(Hub) Credentials\n\nSee in particular the section on ongoing PAT maintenance"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#package-name",
+    "href": "slides/02-package-foundations/index.html#package-name",
+    "title": "Package foundations",
+    "section": "Package name",
+    "text": "Package name\nCan only contain the characters [A-Z, a-z, 0-9, .]. Some tips:\n\nUnique name you can easily Google\nAvoid mixing upper and lower case\nUse abbreviations\nAdd an r to make unique, e.g stringr\nUse wordplay, e.g. lubridate\nAvoid trademarked names\nUse the available package to check name not taken\n\nFor now, we will use animalsounds"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#create-a-package-1",
+    "href": "slides/02-package-foundations/index.html#create-a-package-1",
+    "title": "Package foundations",
+    "section": "Create a package!",
+    "text": "Create a package!\n\nusethis::create_package(\"~/Desktop/animalsounds\")\n\n\nBe deliberate about where you create your package.\nDo not nest inside another RStudio project, R package or git repo.\nYou may want to use a different path!"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#create_package",
+    "href": "slides/02-package-foundations/index.html#create_package",
+    "title": "Package foundations",
+    "section": "create_package()",
+    "text": "create_package()\nWhat happens when we run create_package()?\n\nR will create a folder called animalsounds which is a package and an RStudio project\nrestart R in the new project\ncreate the some infrastructure for your package with the minimal components for a working package\nstart the RStudio Build pane"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#r-studio-build-panemenu",
+    "href": "slides/02-package-foundations/index.html#r-studio-build-panemenu",
+    "title": "Package foundations",
+    "section": "R Studio Build pane/menu",
+    "text": "R Studio Build pane/menu"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#minimal-components",
+    "href": "slides/02-package-foundations/index.html#minimal-components",
+    "title": "Package foundations",
+    "section": "Minimal components",
+    "text": "Minimal components\nusethis will create the minimal components of a package that we have already seen:\n\nDESCRIPTION provides metadata about your package.\nNAMESPACE declares the functions your package exports for external use and the external functions your package imports from other packages.\nThe /R directory is where we will put .R files with function definitions."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#auxiliary-files",
+    "href": "slides/02-package-foundations/index.html#auxiliary-files",
+    "title": "Package foundations",
+    "section": "Auxiliary files",
+    "text": "Auxiliary files\nusethis also adds some auxiliary files:\n\nanimalsounds.Rproj is the file that makes this directory an RStudio Project.\n.Rbuildignore lists files that we need but that should not be included when building the R package from source.\n.gitignore anticipates Git usage and ignores some standard, behind-the-scenes files created by R and RStudio."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#use-git",
+    "href": "slides/02-package-foundations/index.html#use-git",
+    "title": "Package foundations",
+    "section": "Use git",
+    "text": "Use git\nTo make our project a git repository, or ‘repo’, on our local machine we use usethis::use_git()\nMake your package a git repo:\n\nusethis::use_git()"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#use_git-output-part-1",
+    "href": "slides/02-package-foundations/index.html#use_git-output-part-1",
+    "title": "Package foundations",
+    "section": "use_git() output (part 1)",
+    "text": "use_git() output (part 1)\n\n ✔ Initialising Git repo\n ✔ Adding '.Rhistory', '.Rdata', '.httr-oauth', '.DS_Store' to  '.gitignore' \n There are 5 uncommitted files:\n * '.gitignore'\n * '.Rbuildignore'\n * 'DESCRIPTION'\n * 'animalsounds.Rproj'\n * 'NAMESPACE'\n Is it ok to commit them?\n\n 1: I agree\n 2: Absolutely not\n 3: No way\n\nChoose the affirmative option! (The exact options may vary.)"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#use_git-output-part-2",
+    "href": "slides/02-package-foundations/index.html#use_git-output-part-2",
+    "title": "Package foundations",
+    "section": "use_git() output (part 2)",
+    "text": "use_git() output (part 2)\n\n√ Adding files\n√ Commit with message 'Initial commit'\n• A restart of RStudio is required to activate the Git pane\nRestart now?\n\n1: Nope\n2: Definitely\n3: No\n\nChoose the affirmative option! (The exact options may vary.)\n\nYou should find the git pane has opened."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#use-github",
+    "href": "slides/02-package-foundations/index.html#use-github",
+    "title": "Package foundations",
+    "section": "Use GitHub",
+    "text": "Use GitHub\nTo create a copy on GitHub we use usethis::use_github().\n\n# Choose one of the following:\nusethis::use_github() # creates a public repo\nusethis::use_github(private = TRUE) # recommended\n\nThis takes a local project, creates an associated repo on GitHub, adds it to your local repo as the “origin remote”, and makes an initial “push” to synchronize.\n\n\n\n\n\nWarwick GitHub\n\n\nUniversity of Warwick members can use the University’s private GitHub instance, e.g.\n\nusethis::use_github(\"https://github.warwick.ac.uk\")\n\nHowever, Warwick GitHub does not support GitHub Actions or GitHub Pages, so for packages using your personal account is better – we’ll be using both Actions and Pages later.\n\n\n\n\n\nPromote private repo for novel package development - link to licensing issue, covered in package documentation session"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#use_github-output",
+    "href": "slides/02-package-foundations/index.html#use_github-output",
+    "title": "Package foundations",
+    "section": "use_github() output",
+    "text": "use_github() output\n\nusethis::use_github()\n\n\n ✔ Creating GitHub repository 'Warwick-Stats-Resources/animalsounds'\n ✔ Setting remote 'origin' to 'https://github.com/Warwick-Stats-Resources/animalsounds.git'\n ✔ Setting URL field in DESCRIPTION to  'https://github.com/Warwick-Stats-Resources/animalsounds'\n ✔ Setting BugReports field in DESCRIPTION to  'https://github.com/Warwick-Stats-Resources/animalsounds/issues'\n There is 1 uncommitted file:\n * 'DESCRIPTION'\n Is it ok to commit it?\n\n 1: Nope\n 2: For sure\n 3: No way\n\nChoose the affirmative option! (The exact options may vary.)\n\nTake a look at the repo on GitHub. There is no /R folder as that folder is empty at the moment!\nDuring the demo, will need to run use_github(\"Warwick-Stats-Resources\") as by default use_github goes to my personal repo"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#adding-functions",
+    "href": "slides/02-package-foundations/index.html#adding-functions",
+    "title": "Package foundations",
+    "section": "Adding functions",
+    "text": "Adding functions\nFunctions go in an .R file in the /R directory.\nThere’s a usethis helper for adding .R files!\n\nusethis::use_r(\"file_name\") \n\nusethis::use_r() adds the file extension (you don’t need to).\n\nUse a separate .R file for each function or closely related set of functions, e.g.\n\na top-level function and the internal functions it calls\na family of related functions\na summary method and its print method"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#usethisuse_r",
+    "href": "slides/02-package-foundations/index.html#usethisuse_r",
+    "title": "Package foundations",
+    "section": "usethis::use_r()",
+    "text": "usethis::use_r()\nCreate a new R file in your package called animal_sounds.R\n\nusethis::use_r(\"animal_sounds\")\n\nThe output includes:\n\n• Modify 'R/animal_sounds.R'  \n• Call `use_test()` to create a matching test file \n\nIgnore the instruction to call use_test() for now - we’ll cover testing later."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#add-a-function",
+    "href": "slides/02-package-foundations/index.html#add-a-function",
+    "title": "Package foundations",
+    "section": "Add a function",
+    "text": "Add a function\nPut the following toy function into your script:\n\nanimal_sounds &lt;- function(animal, sound) {\n    stopifnot(is.character(animal) & length(animal) == 1)\n    stopifnot(is.character(sound) & length(sound) == 1)\n    paste0(\"The \", animal, \" goes \", sound, \"!\")\n}\n\nDon’t try to use the function yet!"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#development-workflow",
+    "href": "slides/02-package-foundations/index.html#development-workflow",
+    "title": "Package foundations",
+    "section": "Development workflow",
+    "text": "Development workflow\nIn a normal script, you might use:\n\nsource(\"R/animal_sounds.R\")\n\nHowever, for building packages, we need to use the devtools approach.\nThis will ensure our function has the correct namespace and can find internal functions, functions imported by our package from other packages, etc."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#development-workflow-1",
+    "href": "slides/02-package-foundations/index.html#development-workflow-1",
+    "title": "Package foundations",
+    "section": "Development workflow",
+    "text": "Development workflow\n\n\nYou don’t even need to save your code!\n\n\ndevtools::load_all() simulates package installation so that you can test your function."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#your-turn",
+    "href": "slides/02-package-foundations/index.html#your-turn",
+    "title": "Package foundations",
+    "section": "Your turn",
+    "text": "Your turn\n\nLoad all with devtools::load_all() and try calling the animal_sounds() function with appropriate values for animal and sound.\nChange some tiny thing about your function – maybe the animal “says” instead of “goes”.\nLoad all with devtools::load_all() and try calling the updated function to see the changed behaviour.\nAdd animal_sounds.R so that it is tracked by git. Make a commit with the message Add animal_sounds().\nPush all your commits from this session."
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#references",
+    "href": "slides/02-package-foundations/index.html#references",
+    "title": "Package foundations",
+    "section": "References",
+    "text": "References\nWickham, H and Bryan, J, R Packages (2nd edn, in progress), https://r-pkgs.org.\nR Core Team, Writing R Extensions, https://cran.r-project.org/doc/manuals/r-release/R-exts.html"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#license",
+    "href": "slides/02-package-foundations/index.html#license",
+    "title": "Package foundations",
+    "section": "License",
+    "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Wednesday June 26th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nThursday June 27th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
+  },
+  {
+    "objectID": "content/02-package-foundations/index.html",
+    "href": "content/02-package-foundations/index.html",
+    "title": "Package foundations",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/02-package-foundations/index.html#slides",
+    "href": "content/02-package-foundations/index.html#slides",
+    "title": "Package foundations",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/02-package-foundations/index.html#resources",
+    "href": "content/02-package-foundations/index.html#resources",
+    "title": "Package foundations",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Apply for the workshop",
+    "section": "",
+    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.\nThe form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.\nIf you have access to SkillsForge, you can also sign-up there. Note that you have to sign-up at the apply link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.\nSkillsForge"
+  },
+  {
     "objectID": "content/01-welcome/index.html",
     "href": "content/01-welcome/index.html",
     "title": "Welcome and introduction",
@@ -61,20 +369,6 @@
     "title": "Welcome and introduction",
     "section": "Resources",
     "text": "Resources\n\nReading\n\nWickham, H and Bryan, J, R Packages (2nd edition)\nhttps://r-pkgs.org\nR Core Team, Writing R Extensions\nhttps://cran.r-project.org/doc/manuals/r-release/R-exts.html\n\n\n\nPackages\n\ndevtools\nhttps://devtools.r-lib.org\nusethis\nhttps://usethis.r-lib.org"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Apply for the workshop",
-    "section": "",
-    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.\nThe form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest.\nIf you have access to SkillsForge, you can also sign-up there. Note that you have to sign-up at the apply link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit.\nSkillsForge"
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Wednesday June 26th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nThursday June 27th, 2024\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
   },
   {
     "objectID": "slides/01-welcome/index.html#instructors",
