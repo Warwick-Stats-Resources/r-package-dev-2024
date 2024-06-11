@@ -661,6 +661,18 @@ export(fun1)</code></pre>
 <span id="cb8-5"><a></a>compact <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
 <span id="cb8-6"><a></a>  x[<span class="sc">!</span><span class="fu">vapply</span>(x, is.null, <span class="fu">logical</span>(<span class="dv">1</span>))]</span>
 <span id="cb8-7"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="fragment">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Using the ‘Insert Roxygen Skeleton’ option adds an <code>@export</code> tag.</p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="your-turn" class="slide level2">
 <h2>Your turn</h2>
@@ -685,7 +697,7 @@ export(fun1)</code></pre>
 </section>
 <section id="using-markdown" class="slide level2">
 <h2>Using markdown</h2>
-<p>Most commonly-used mark-up is easier with markdown (can be mixed with <code>.Rd</code> mark-up).</p>
+<p>Most commonly used mark-up is easier with markdown (and can be mixed with <code>.Rd</code> mark-up).</p>
 <ul>
 <li><p>Text formatting: <code>**bold**</code>, <code>_italic_</code>, <code>`code`</code></p></li>
 <li><p>Create links</p>

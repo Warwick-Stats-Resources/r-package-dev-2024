@@ -165,7 +165,7 @@
     "href": "slides/03-documentation/index.html#what-to-export",
     "title": "Function documentation and dependencies",
     "section": "What to export",
-    "text": "What to export\nOnly export functions that you want your package users to use, i.e. those that are relevant to the purpose of the package.\nDon’t export internal helpers, e.g.\n# Defaults for NULL values\n`%||%` &lt;- function(a, b) if (is.null(a)) b else a\n\n# Remove NULLs from a list\ncompact &lt;- function(x) {\n  x[!vapply(x, is.null, logical(1))]\n}"
+    "text": "What to export\nOnly export functions that you want your package users to use, i.e. those that are relevant to the purpose of the package.\nDon’t export internal helpers, e.g.\n# Defaults for NULL values\n`%||%` &lt;- function(a, b) if (is.null(a)) b else a\n\n# Remove NULLs from a list\ncompact &lt;- function(x) {\n  x[!vapply(x, is.null, logical(1))]\n}\n\n\n\n\nNote\n\n\nUsing the ‘Insert Roxygen Skeleton’ option adds an @export tag."
   },
   {
     "objectID": "slides/03-documentation/index.html#your-turn",
@@ -186,7 +186,7 @@
     "href": "slides/03-documentation/index.html#using-markdown",
     "title": "Function documentation and dependencies",
     "section": "Using markdown",
-    "text": "Using markdown\nMost commonly-used mark-up is easier with markdown (can be mixed with .Rd mark-up).\n\nText formatting: **bold**, _italic_, `code`\nCreate links\n\nTo a function in the same package: [func()]\nTo a function in a different package: [pkg::func()]\nWith different link text, e.g. [link text][func()]\n\n\nFor more details, see the (R)Markdown support vignette.\n\nSeems you no longer need to specify pkg:: - will find the documentation in any installed package. For functions in multiple packages, e.g. select() help pane will offer a choice. Probably still best practice to use pkg:: for disambiguation, though still may not be necessary for base functions"
+    "text": "Using markdown\nMost commonly used mark-up is easier with markdown (and can be mixed with .Rd mark-up).\n\nText formatting: **bold**, _italic_, `code`\nCreate links\n\nTo a function in the same package: [func()]\nTo a function in a different package: [pkg::func()]\nWith different link text, e.g. [link text][func()]\n\n\nFor more details, see the (R)Markdown support vignette.\n\nSeems you no longer need to specify pkg:: - will find the documentation in any installed package. For functions in multiple packages, e.g. select() help pane will offer a choice. Probably still best practice to use pkg:: for disambiguation, though still may not be necessary for base functions"
   },
   {
     "objectID": "slides/03-documentation/index.html#your-turn-1",
