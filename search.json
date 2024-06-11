@@ -1019,28 +1019,28 @@
     "href": "slides/02-package-foundations/index.html#devtools-and-usethis",
     "title": "Package foundations",
     "section": "devtools and usethis",
-    "text": "devtools and usethis\nWe can use devtools right away to check our system is setup for package development.\n\ninstall.packages(\"devtools\")\n\n\nlibrary(devtools)\n\n\nhas_devel()\n\nYour system is ready to build packages!\n\n\nInstalling devtools will also install usethis.\nCheck you have the latest version of usethis – 2.2.0 was recently released – and update if not:\n\npackageVersion(\"usethis\")\n\n[1] '2.2.3'"
+    "text": "devtools and usethis\nWe can use devtools right away to check our system is setup for package development.\n\ninstall.packages(\"devtools\")\n\n\nlibrary(devtools)\n\n\nhas_devel()\n\nYour system is ready to build packages!\n\n\nInstalling devtools will also install usethis.\nCheck you have the latest version of usethis – v2.2.3 – and update if not:\n\npackageVersion(\"usethis\")\n\n[1] '2.2.3'"
+  },
+  {
+    "objectID": "slides/02-package-foundations/index.html#git-sitrep-and-vaccinate",
+    "href": "slides/02-package-foundations/index.html#git-sitrep-and-vaccinate",
+    "title": "Package foundations",
+    "section": "git sitrep and vaccinate",
+    "text": "git sitrep and vaccinate\nAsk for a situation report:\n\nusethis::git_sitrep()\n\n\nCheck that your user name and email are defined, else follow the configuration instructions from a previous Advanced R workshop.\nCheck whether you have a PAT\nPersonal access token for 'https://github.com': '&lt;discovered&gt;'\n\n\nIt’s also a good idea to vaccinate. This implements best practice by adding files to your global .gitignore:\n\nusethis::git_vaccinate()"
   },
   {
     "objectID": "slides/02-package-foundations/index.html#create-a-github-pat",
     "href": "slides/02-package-foundations/index.html#create-a-github-pat",
     "title": "Package foundations",
     "section": "Create a GitHub PAT",
-    "text": "Create a GitHub PAT\nThe usethis package uses personal access tokens (PAT) to communicate with GitHub.\nFirst, make sure you’re signed into GitHub. Then run\n\nusethis::create_github_token()\n\n\n\nAdd Note describing the computer or use- case (e.g. personal-macbook-pro-2021, project-xyz)\nSelect expiration (recommend default 30 days)\nCheck scope (default selection is fine)\nClick ‘Generate Token’\nImportant! Copy token to clipboard, do not close window until stored (see next slide)!\nYou may want to store token in a secure vault, like 1Password or BitWarden"
+    "text": "Create a GitHub PAT\nThe usethis package uses personal access tokens (PAT) to communicate with GitHub.\nFirst, make sure you’re signed into GitHub. Then run\n\nusethis::create_github_token()\n\n\n\nAdd Note describing the computer or use-case (e.g. personal-macbook-pro-2021, project-xyz)\nSelect expiration (recommend default 30 days)\nCheck scope (default selection is fine)\nClick ‘Generate Token’\nImportant! Copy token to clipboard, do not close window until stored (see next slide)!\nYou may want to store token in a secure vault, like 1Password or BitWarden"
   },
   {
     "objectID": "slides/02-package-foundations/index.html#store-your-pat",
     "href": "slides/02-package-foundations/index.html#store-your-pat",
     "title": "Package foundations",
     "section": "Store your PAT",
-    "text": "Store your PAT\nBy installing usethis, you will also have the gitcreds package to manage git credentials.\nPut your PAT into the Git credential store by running the following command and entering your copied PAT at the prompt (assume the PAT is on your clipboard).\n\ngitcreds::gitcreds_set()\n\n\nIf you don’t have a PAT stored, will prompt you to enter: paste!\nIf you do, you will be given a choice to keep/replace/see the password\n\nchoose as appropriate\nif replacing, paste!"
-  },
-  {
-    "objectID": "slides/02-package-foundations/index.html#sitrep-and-vaccinate",
-    "href": "slides/02-package-foundations/index.html#sitrep-and-vaccinate",
-    "title": "Package foundations",
-    "section": "sitrep and vaccinate",
-    "text": "sitrep and vaccinate\nAsk for a situation report:\n\nusethis::git_sitrep()\n\nCheck that the PAT is discovered.\nCheck that your user name and email are defined, else follow the configuration instructions from a previous Advanced R workshop.\nIt’s also a good idea to vaccinate. This implements best practice by adding files to your global .gitignore:\n\nusethis::git_vaccinate()"
+    "text": "Store your PAT\nPut your PAT into the Git credential store by running the following command and entering your copied PAT at the prompt (assume the PAT is on your clipboard).\n\ngitcreds::gitcreds_set()\n\n\nIf you don’t have a PAT stored, will prompt you to enter: paste!\nIf you do, you will be given a choice to keep/replace/see the password\n\nchoose as appropriate\nif replacing, paste!\n\nrun git_sitrep() again to check the PAT has been discovered"
   },
   {
     "objectID": "slides/02-package-foundations/index.html#more-on-usethis-and-github-creds",
@@ -1117,7 +1117,7 @@
     "href": "slides/02-package-foundations/index.html#use-github",
     "title": "Package foundations",
     "section": "Use GitHub",
-    "text": "Use GitHub\nTo create a copy on GitHub we use usethis::use_github().\n\n# Choose one of the following:\nusethis::use_github() # creates a public repo\nusethis::use_github(private = TRUE) # recommended\n\nThis takes a local project, creates an associated repo on GitHub, adds it to your local repo as the “origin remote”, and makes an initial “push” to synchronize.\n\n\n\n\n\nWarwick GitHub\n\n\nUniversity of Warwick members can use the University’s private GitHub instance, e.g.\n\nusethis::use_github(\"https://github.warwick.ac.uk\")\n\nHowever, Warwick GitHub does not support GitHub Actions or GitHub Pages, so for packages using your personal account is better – we’ll be using both Actions and Pages later.\n\n\n\n\n\nPromote private repo for novel package development - link to licensing issue, covered in package documentation session"
+    "text": "Use GitHub\nTo create a copy on GitHub we use usethis::use_github().\n\nusethis::use_github() # creates a public repo\nusethis::use_github(private = TRUE) # private repo (licensing, no Pages)\n\nThis takes a local project, creates an associated repo on GitHub, adds it to your local repo as the “origin remote”, and makes an initial “push” to synchronize.\n\n\n\n\n\nWarwick GitHub\n\n\nUniversity of Warwick members can use the University’s private GitHub instance, e.g.\n\nusethis::use_github(\"https://github.warwick.ac.uk\")\n\nHowever, Warwick GitHub does not support GitHub Actions or GitHub Pages, so for packages using your personal account is better – we’ll be using both Actions and Pages later.\n\n\n\n\n\nPromote private repo for novel package development - link to licensing issue, covered in package documentation session"
   },
   {
     "objectID": "slides/02-package-foundations/index.html#use_github-output",
@@ -1138,7 +1138,7 @@
     "href": "slides/02-package-foundations/index.html#usethisuse_r",
     "title": "Package foundations",
     "section": "usethis::use_r()",
-    "text": "usethis::use_r()\nCreate a new R file in your package called animal_sounds.R\n\nusethis::use_r(\"animal_sounds\")\n\nThe output includes:\n\n• Modify 'R/animal_sounds.R'  \n• Call `use_test()` to create a matching test file \n\nIgnore the instruction to call use_test() for now - we’ll cover testing later."
+    "text": "usethis::use_r()\nCreate a new R file in your package called animal_sounds.R\n\nusethis::use_r(\"animal_sounds\")\n\nThe output includes:\n\n• Modify 'R/animal_sounds.R'  \n• Call `use_test()` to create a matching test file \n\nIgnore the instruction to call use_test() for now – we’ll cover testing later."
   },
   {
     "objectID": "slides/02-package-foundations/index.html#add-a-function",
