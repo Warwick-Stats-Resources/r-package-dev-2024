@@ -1477,18 +1477,25 @@
     "text": "Our example function\n\nanimal_sounds &lt;- function(animal, sound) {\n  \n  if (!rlang::is_character(animal, 1)) {\n    cli::cli_abort(\"{.var animal} must be a single string!\")\n  }\n  \n  if (!rlang::is_character(sound, 1)) {\n    cli::cli_abort(\"{.var sound} must be a single string!\")\n  }\n  \n  paste0(\"The \", animal, \" goes \", sound, \"!\")\n}"
   },
   {
-    "objectID": "slides/04-testing/index.html#a-sample-test",
-    "href": "slides/04-testing/index.html#a-sample-test",
+    "objectID": "slides/04-testing/index.html#creating-test-files",
+    "href": "slides/04-testing/index.html#creating-test-files",
     "title": "Testing",
-    "section": "A sample test",
-    "text": "A sample test\nFirst, create a test file for this function, in either way:\n# In RStudio, with `animal_sounds.R` the active file:\nusethis::use_test()  \n\n# More generally\nusethis::use_test(\"animal_sounds\")\n\n\n\n\nNote\n\n\nRStudio makes it really easy to swap between associated R scripts and tests.\nIf the R file is open, usethis::use_test() (with no arguments) opens or creates the test.\nWith the test file open, usethis::use_r() (with no arguments) opens or creates the R script."
+    "section": "Creating test files",
+    "text": "Creating test files\nFirst, create a test file for this function, in either way:\n# In RStudio, with `animal_sounds.R` the active file:\nusethis::use_test()  \n\n# More generally\nusethis::use_test(\"animal_sounds\")\n\n\n\n\nNote\n\n\nRStudio makes it really easy to swap between associated R scripts and tests.\nIf the R file is open, usethis::use_test() (with no arguments) opens or creates the test.\nWith the test file open, usethis::use_r() (with no arguments) opens or creates the R script."
+  },
+  {
+    "objectID": "slides/04-testing/index.html#anatomy-of-a-test",
+    "href": "slides/04-testing/index.html#anatomy-of-a-test",
+    "title": "Testing",
+    "section": "Anatomy of a test",
+    "text": "Anatomy of a test\n\ntest_that(desc, code)\n\n\ndesc is the test name. Should be brief and evocative, e.g. test_that(\"multiplication works\", { ... }).\ncode is test code containing expectations. Braces ({}) should always be used in order to get accurate location data for test failures.\n\ncan include several expectations, as well as other code to help define them"
   },
   {
     "objectID": "slides/04-testing/index.html#add-a-test",
     "href": "slides/04-testing/index.html#add-a-test",
     "title": "Testing",
     "section": "Add a test",
-    "text": "Add a test\nIn the now-created and open tests/testthat/test-animal_sounds.R script:\n\ntest_that(\"animal_sounds produces expected strings\", {\n  dog_woof &lt;- animal_sounds(\"dog\", \"woof\")\n  expect_equal(dog_woof, \n               \"The dog goes woof!\")\n})"
+    "text": "Add a test\nIn the now-created and open tests/testthat/test-animal_sounds.R script:\n\ntest_that(\"animal_sounds produces expected strings\", {\n  dog_woof &lt;- animal_sounds(\"dog\", \"woof\")\n  expect_equal(dog_woof, \"The dog goes woof!\")\n  expect_equal(animal_sounds(\"cat\", \"miaow\"), \"The cat goes miaow!\")\n})"
   },
   {
     "objectID": "slides/04-testing/index.html#run-tests",
@@ -1551,7 +1558,7 @@
     "href": "slides/04-testing/index.html#test-against-a-snapshot",
     "title": "Testing",
     "section": "Test against a snapshot",
-    "text": "Test against a snapshot\n\nNext time the tests are run the output will be compared against this snapshot.\nSuppose we update some of the error message in animal_sounds to\n\n\"{.var sound} must be a {.cls character} vector of length 1!\"\n\nWhen we rerun the test, we’ll get a failure:\n── Failure (test-animal_sounds.R:16:3): error message for invalid input ──\nSnapshot of code has changed:\nold vs new\n  \"Code\"\n  \"  animal_sounds(\\\"dog\\\", c(\\\"woof\\\", \\\"bow wow wow\\\"))\"\n  \"Error &lt;error_not_single_string&gt;\"\n- \"  `sound` must be a single string!\"\n+ \"  `sound` must be a &lt;character&gt; vector of length 1!\"\n  \"  i It was a character vector of length 2 instead.\"\n\n* Run testthat::snapshot_accept('animal_sounds') to accept the change.\n* Run testthat::snapshot_review('animal_sounds') to interactively review the change.\n\n\nNote the next steps with snapshot_accept and snapshot_review"
+    "text": "Test against a snapshot\n\nNext time the tests are run the output will be compared against this snapshot.\nSuppose we update an error message in animal_sounds to\n\n\"{.var sound} must be a {.cls character} vector of length 1!\"\n\nWhen we rerun the test, we’ll get a failure:\n── Failure (test-animal_sounds.R:16:3): error message for invalid input ──\nSnapshot of code has changed:\nold vs new\n  \"Code\"\n  \"  animal_sounds(\\\"dog\\\", c(\\\"woof\\\", \\\"bow wow wow\\\"))\"\n  \"Error &lt;error_not_single_string&gt;\"\n- \"  `sound` must be a single string!\"\n+ \"  `sound` must be a &lt;character&gt; vector of length 1!\"\n  \"  i It was a character vector of length 2 instead.\"\n\n* Run testthat::snapshot_accept('animal_sounds') to accept the change.\n* Run testthat::snapshot_review('animal_sounds') to interactively review the change.\n\n\nNote the next steps with snapshot_accept and snapshot_review"
   },
   {
     "objectID": "slides/04-testing/index.html#so-far-weve-done-this",
