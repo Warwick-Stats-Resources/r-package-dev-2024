@@ -1313,7 +1313,7 @@
     "href": "slides/05-check-package-documentation/index.html#your-turn-1",
     "title": "Package check and documentation",
     "section": "Your turn",
-    "text": "Your turn\n\nCreate a README for animalsounds with usethis::use_readme_rmd().\nFill in the description and an example.\nTry adding the README in a git commit – it should fail!. Render the README with build_readme(), then add both README.Rmd and README.md in a git commit.\nRun usethis::use_github_action(\"check-release\"). It adds a badge to the README, so you will need to render the README again.\nCommit all the changes to git."
+    "text": "Your turn\n\nCreate a README for animalsounds with usethis::use_readme_rmd().\nFill in the description and an example.\nTry adding the README in a git commit – it should fail! Render the README with build_readme(), then add both README.Rmd and README.md in a git commit.\nRun usethis::use_github_action(\"check-release\"). It adds a badge to the README, so you will need to render the README again.\nCommit all the changes to git."
   },
   {
     "objectID": "slides/05-check-package-documentation/index.html#vignettes-1",
@@ -1334,7 +1334,7 @@
     "href": "slides/05-check-package-documentation/index.html#vignette-rmarkdown-special-metadata",
     "title": "Package check and documentation",
     "section": "Vignette = Rmarkdown + special metadata",
-    "text": "Vignette = Rmarkdown + special metadata\n---\ntitle: \"Vignette Title\"\nauthor: \"Vignette author\"\ndate: \"2024-06-03\"\noutput: rmarkdown::html_vignette\nvignette: &gt;\n%\\VignetteIndexEntry{Vignette Title}\n%\\VignetteEngine{knitr::rmarkdown}\n%\\VignetteEncoding{UTF-8}\n---\n\n\nhtml_vignette output uses a custom style sheet to keep the file size of the HTML as small as possible.\nThe vignette: field contains special metadata needed when the package is built. Don’t forget to change the title here too!"
+    "text": "Vignette = Rmarkdown + special metadata\n---\ntitle: \"Vignette Title\"\nauthor: \"Vignette author\"\ndate: \"2024-06-13\"\noutput: rmarkdown::html_vignette\nvignette: &gt;\n%\\VignetteIndexEntry{Vignette Title}\n%\\VignetteEngine{knitr::rmarkdown}\n%\\VignetteEncoding{UTF-8}\n---\n\n\nhtml_vignette output uses a custom style sheet to keep the file size of the HTML as small as possible.\nThe vignette: field contains special metadata needed when the package is built. Don’t forget to change the title here too!"
   },
   {
     "objectID": "slides/05-check-package-documentation/index.html#vignette-workflow",
@@ -1397,7 +1397,7 @@
     "href": "slides/05-check-package-documentation/index.html#hosting-your-website",
     "title": "Package check and documentation",
     "section": "Hosting your website",
-    "text": "Hosting your website\n\nYou can host your website directly from its GitHub repo\nThe recommended approach is to let GitHub build your page (instead of calling pkgdown::build_site() and committing and pushing the artifacts of the built website (i.e., html files) to GitHub\nAdd an action to your GitHub repo to be run automatically every time you push to it to rebuild the site:\nusethis::use_pkgdown_github_pages()\nThe URL will be https://USERNAME.github.io/animalsounds\n\n\nuse_pkgdown_github_pages() will:\n\ncall use_pkgdown() - allow it to overwrite existing _pkgdown.yml (will add the url)\nset up a gh-pages branch from which to deploy the site\nadd a pkgdown.yml to .github/workflows\n\nWill still need to call pkgdown::build_site() to preview locally"
+    "text": "Hosting your website\n\nYou can host your website directly from its GitHub repo (repo has to be public)\nThe recommended approach is to let GitHub build your page (instead of calling pkgdown::build_site() and committing and pushing the artifacts of the built website (i.e., html files) to GitHub\nAdd an action to your GitHub repo to be run automatically every time you push to it to rebuild the site:\nusethis::use_pkgdown_github_pages()\nThe URL will be https://USERNAME.github.io/animalsounds\n\n\nuse_pkgdown_github_pages() will:\n\ncall use_pkgdown() - allow it to overwrite existing _pkgdown.yml (will add the url)\nset up a gh-pages branch from which to deploy the site\nadd a pkgdown.yml to .github/workflows\n\nWill still need to call pkgdown::build_site() to preview locally"
   },
   {
     "objectID": "slides/05-check-package-documentation/index.html#customising-your-website",

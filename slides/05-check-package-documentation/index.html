@@ -426,8 +426,8 @@ Department of Statistics
 </ul>
 </section>
 <section>
-<section id="check-you-package" class="title-slide slide level1 inverse center">
-<h1>Check you package!</h1>
+<section id="check-your-package" class="title-slide slide level1 inverse center">
+<h1>Check your package!</h1>
 
 </section>
 <section id="r-cmd-check" class="slide level2">
@@ -863,7 +863,7 @@ Error: The specified file is not readable: path-to\animalsounds\NAMESPACE  </cod
 <ol type="1">
 <li>Create a README for <code>animalsounds</code> with <code>usethis::use_readme_rmd()</code>.</li>
 <li>Fill in the description and an example.</li>
-<li>Try adding the README in a git commit – it should fail!. Render the README with <code>build_readme()</code>, then add both <code>README.Rmd</code> and <code>README.md</code> in a git commit.</li>
+<li>Try adding the README in a git commit – it should fail! Render the README with <code>build_readme()</code>, then add both <code>README.Rmd</code> and <code>README.md</code> in a git commit.</li>
 <li>Run <code>usethis::use_github_action("check-release")</code>. It adds a badge to the README, so you will need to render the README again.</li>
 <li>Commit all the changes to git.</li>
 </ol>
@@ -927,7 +927,7 @@ VignetteBuilder: knitr
 <pre><code>---
 title: "Vignette Title"
 author: "Vignette author"
-date: "2024-06-03"
+date: "2024-06-13"
 output: rmarkdown::html_vignette
 vignette: &gt;
 %\VignetteIndexEntry{Vignette Title}
@@ -1064,7 +1064,7 @@ vignette: &gt;
 <section id="hosting-your-website" class="slide level2">
 <h2>Hosting your website</h2>
 <ul>
-<li><p>You can host your website directly from its GitHub repo</p></li>
+<li><p>You can host your website directly from its GitHub repo (repo has to be public)</p></li>
 <li><p>The recommended approach is to let GitHub build your page (instead of calling <code>pkgdown::build_site()</code> and committing and pushing the artifacts of the built website (i.e., html files) to GitHub</p></li>
 <li><p>Add an action to your GitHub repo to be run automatically every time you push to it to rebuild the site:</p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a></a>usethis<span class="sc">::</span><span class="fu">use_pkgdown_github_pages</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
