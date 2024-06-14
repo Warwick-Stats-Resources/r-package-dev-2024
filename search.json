@@ -431,14 +431,21 @@
     "href": "slides/06-data-publication-maintenance/index.html#usethisuse_release_issue",
     "title": "Packaging dataPublication and maintenance",
     "section": "usethis::use_release_issue()",
-    "text": "usethis::use_release_issue()\nThis function will first ask you to select the release version (major, minor, patch) then create and open a to-do list as an issue in the package GitHub repo.\nFor a first submission, there are around 22 tasks to complete, split into sections, to follow (more-or-less) in order:\n\nFirst release (one-time only)\nPrepare for release\nSubmit to CRAN\nWait or CRAN (things to do after package has been accepted)\n\nFor more details on each, see the Releasing to CRAN chapter of the R Packages book.\n\nNumber of tasks may vary depending on what you’ve already done (e.g. use_news_md will appear on list if you haven’t already got a NEWS.md file, but won’t if you do.)\nSome are clearly optional (e.g. drafting a blog post about the release) but most should be followed.\nSome relate to promoting the package, rather than the technicalities of releasing it.\nThere are some different items for packages already on CRAN - not covered here - see Release chapter of R Packages for more details\nWill catch many common ‘gotchas’, e.g. Title Case for Title, checking all exported functions have @returns and @examples"
+    "text": "usethis::use_release_issue()\nThis function will first ask you to select the release version (major, minor, patch) then create and open a to-do list as an issue in the package GitHub repo.\nFor a first submission, there are around 22 tasks to complete, split into sections, to follow (more-or-less) in order:\n\nFirst release (one-time only)\nPrepare for release\nSubmit to CRAN\nWait for CRAN (things to do after package has been accepted)\n\nFor more details on each, see the Releasing to CRAN chapter of the R Packages book.\n\nNumber of tasks may vary depending on what you’ve already done (e.g. use_news_md will appear on list if you haven’t already got a NEWS.md file, but won’t if you do.)\nSome are clearly optional (e.g. drafting a blog post about the release) but most should be followed.\nSome relate to promoting the package, rather than the technicalities of releasing it.\nThere are some different items for packages already on CRAN - not covered here - see Release chapter of R Packages for more details\nWill catch many common ‘gotchas’, e.g. Title Case for Title, checking all exported functions have @returns and @examples"
   },
   {
     "objectID": "slides/06-data-publication-maintenance/index.html#run-as-cran-checks",
     "href": "slides/06-data-publication-maintenance/index.html#run-as-cran-checks",
     "title": "Packaging dataPublication and maintenance",
     "section": "Run “as CRAN” checks",
-    "text": "Run “as CRAN” checks\nCRAN policies state that you must run R CMD check --as-cran on the tarball to be uploaded with the current version of R-devel.\nFirst make sure the package passes check locally:\ndevtools::check()\nThen allow some extra checks:\ndevtools::check(remote = TRUE, manual = TRUE)\nThen send to CRAN’s win-builder to check on R-devel\ndevtools::check_win_devel()\n\n\nFurther options: R-Hub (multiple platforms available, with different compilers) and Mac-builder (with M1)\ndevtools::check_rhub()\ndevtools::check_mac_release()\n\n\nIt’s possible that the way your libraries are set up can mask problems with check() on your local machine. For example, it’s important that your System Library just comes with base and recommended packages and that all packages that you install go in your user library. Aside: Installing R through rig takes care of this for you."
+    "text": "Run “as CRAN” checks\nCRAN policies state that you must run R CMD check --as-cran on the tarball to be uploaded with the current version of R-devel.\nFirst make sure the package passes check locally:\ndevtools::check()\nThen allow some extra checks:\ndevtools::check(remote = TRUE, manual = TRUE)\nThen send to CRAN’s win-builder to check on R-devel\ndevtools::check_win_devel()\nAlso check on Mac (M1)\ndevtools::check_mac_release()\n\nIt’s possible that the way your libraries are set up can mask problems with check() on your local machine. For example, it’s important that your System Library just comes with base and recommended packages and that all packages that you install go in your user library. Aside: Installing R through rig takes care of this for you."
+  },
+  {
+    "objectID": "slides/06-data-publication-maintenance/index.html#r-hub-v2",
+    "href": "slides/06-data-publication-maintenance/index.html#r-hub-v2",
+    "title": "Packaging dataPublication and maintenance",
+    "section": "R-hub v2",
+    "text": "R-hub v2\n\nA new (since April 2024) check system.\nWorks best if the package is on GitHub\nWorks with GitHub Actions\n\n\n# run once\ninstall.packages(rhub) \nrhub::rhub_setup() # guides through set-up process\nrhub::rhub_doctor() # checks the set-up\n\n# run the checks\nrhub::rhub_check()\n\nSee the r-hub blog post for more details"
   },
   {
     "objectID": "slides/06-data-publication-maintenance/index.html#cran-comments.md",
@@ -529,7 +536,7 @@
     "href": "slides/06-data-publication-maintenance/index.html#congratulations",
     "title": "Packaging dataPublication and maintenance",
     "section": "Congratulations 🎉",
-    "text": "Congratulations 🎉\nYou have written a package!\nAnd reached the end of the R Packages workshop!"
+    "text": "Congratulations 🎉\nYou have written a package!\n\nBut stay tuned for the final session on incorporating Rcpp code into a package"
   },
   {
     "objectID": "slides/06-data-publication-maintenance/index.html#references",
