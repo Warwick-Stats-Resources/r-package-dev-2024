@@ -13,6 +13,7 @@
 
   <meta name="author" content="Heather Turner and Ella Kaye">
   <meta name="author" content="Department of Statistics">
+  <meta name="dcterms.date" content="2024-06-27">
   <title>R packages 2024 - Rcpp in packages</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -410,7 +411,7 @@ Department of Statistics
 </div>
 </div>
 
-  <p class="date">Invalid Date</p>
+  <p class="date">June 27, 2024</p>
 </section>
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
@@ -429,9 +430,9 @@ Department of Statistics
 </section>
 <section id="recap" class="slide level2">
 <h2>Recap</h2>
-<p>This session assumes familiarity with the <a href="../../content/06-r-with-cpp/index.html">C++ and Rcpp</a> session of the Advanced R workshop.</p>
+<p>This session assumes familiarity with the <a href="https://warwick-stats-resources.github.io/r-programming-2024/content/07-r-with-cpp/">C++ and Rcpp</a> session of the R programming workshop.</p>
 <aside class="notes">
-<p>For the 2023 workshop, all participants should either have attended this session the day before or been e-mailed in advanced with a link to the material and told that it is a prerequisite.</p>
+<p>For the 2024 workshop, all participants should either have been e-mailed in advanced with a link to the material and told that it is a prerequisite.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -578,7 +579,7 @@ useDynLib(pkgrcpp, .registration = TRUE)</code></pre></li>
 <span id="cb10-5"><a></a>    <span class="fu">.Call</span>(<span class="st">`</span><span class="at">_pkgrcpp_add_cpp</span><span class="st">`</span>, x, y)</span>
 <span id="cb10-6"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Currently this is an internal R function - we have not taken any action to add it as an export in the NAMESPACE.</p>
+<p>Currently this is an internal R function – we have not taken any action to add it as an export in the NAMESPACE.</p>
 </section>
 <section id="try-out-the-r-wrapper" class="slide level2">
 <h2>Try out the R wrapper</h2>
@@ -696,6 +697,12 @@ useDynLib(pkgrcpp, .registration = TRUE)</code></pre></li>
 <li>Commit your changes to git.</li>
 </ol>
 </section>
+<section id="aside-a-note-on-taskfarm" class="slide level2">
+<h2>Aside: A note on Taskfarm</h2>
+<p>If you are running code on <a href="https://docs.scrtp.warwick.ac.uk/taskfarm.html#taskfarm">Taskfarm</a> that uses a package with code compiled by <strong>Rcpp</strong>, you may see “illegal operations” errors in your jobs.</p>
+<p>For a fix, see the <a href="https://docs.scrtp.warwick.ac.uk/taskfarm-pages/faq.html#.">Taskfarm FAQ</a>.</p>
+<p>Note that this can occur with any package that includes code compiled with Rcpp, not just packages that you wrote.</p>
+</section>
 <section id="exporting-c-code" class="slide level2">
 <h2>Exporting C++ Code</h2>
 <p>As we have seen, <code>Rcpp::compileAttributes()</code> creates an R interface to our exported C++ functions.</p>
@@ -775,7 +782,7 @@ useDynLib(pkgrcpp, .registration = TRUE)</code></pre></li>
 </section>
 <section id="example-alternative-distribution-functions" class="slide level2">
 <h2>Example: Alternative Distribution Functions</h2>
-<p>In the Advanced R workshop (final exercise of the Rcpp session), we wrote an Rcpp function to approximate <span class="math inline">\(\pi\)</span>:</p>
+<p>In the R Programming workshop (final exercise of the Rcpp session), we wrote an Rcpp function to approximate <span class="math inline">\(\pi\)</span>:</p>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource cpp number-lines code-with-copy"><code class="sourceCode cpp"><span id="cb18-1"><a></a><span class="dt">double</span> approx_pi<span class="op">(</span><span class="at">const</span> <span class="dt">int</span> N<span class="op">)</span> <span class="op">{</span></span>
 <span id="cb18-2"><a></a>  NumericVector x <span class="op">=</span> runif<span class="op">(</span>N<span class="op">);</span></span>
