@@ -907,7 +907,7 @@
     "href": "slides/07-Rcpp-packages/index.html#your-turn-4",
     "title": "Rcpp in packages",
     "section": "Your turn",
-    "text": "Your turn\n\n\nRun usethis::use_rcpp_armadillo(\"inner_prod\") to set the package up to use RcppArmadillo and create a new .cpp file.\nIn inner_prod.cpp, edit the #include statement for RcppArmadillo and add the code\n\n\n// [[ Rcpp::export]]\ndouble inner_prod (arma::vec x, arma::vec y) {\n    arma::mat z = x.t() * y ;\n    return(z(0)) ;\n}\n\n\nRun Build &gt; Document to create the R wrapper.\nRun devtools::load_all() to load the function and try it out.\nCommit your changes to git.\nPush all your changes to git from this session.\n\n\n\nThere are issues with lgfortran on macOS. Currently trying to work out how to fix these."
+    "text": "Your turn\n\n\nRun usethis::use_rcpp_armadillo(\"inner_prod\") to set the package up to use RcppArmadillo and create a new .cpp file.\nIn inner_prod.cpp, edit the #include statement for RcppArmadillo and add the code\n\n\n// [[ Rcpp::export]]\ndouble inner_prod (arma::vec x, arma::vec y) {\n    arma::mat z = x.t() * y ;\n    return(z(0)) ;\n}\n\n\nRun Build &gt; Document to create the R wrapper.\nRun devtools::load_all() to load the function and try it out.\nCommit your changes to git.\nPush all your changes to git from this session."
   },
   {
     "objectID": "slides/07-Rcpp-packages/index.html#references",
