@@ -629,23 +629,24 @@ Department of Statistics
 <h2>Installing a package from an R-universe</h2>
 <p>Binaries are built for Windows and MacOS, which a user can install using <code>install.packages()</code>, e.g.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="co"># Install 'malt' from the 'lrioudurand' universe</span></span>
-<span id="cb12-2"><a></a><span class="fu">install.packages</span>(<span class="st">'malt'</span>, <span class="at">repos =</span> <span class="fu">c</span>(</span>
-<span id="cb12-3"><a></a>  <span class="at">lrioudurand =</span> <span class="st">'https://lrioudurand.r-universe.dev'</span>,</span>
-<span id="cb12-4"><a></a>  <span class="at">CRAN =</span> <span class="st">'https://cloud.r-project.org'</span>)  </span>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="co"># Install 'warwickplots' from the 'warwick-stats-resources' universe</span></span>
+<span id="cb12-2"><a></a><span class="fu">install.packages</span>(<span class="st">'warwickplots'</span>, <span class="at">repos =</span> <span class="fu">c</span>(</span>
+<span id="cb12-3"><a></a>  <span class="at">WSR =</span> <span class="st">'https://warwick-stats-resources.r-universe.dev'</span>,</span>
+<span id="cb12-4"><a></a>  <span class="at">CRAN =</span> <span class="st">'https://cloud.r-project.org'</span>)</span>
 <span id="cb12-5"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="fragment">
 <p>Alternatively, you can first set <code>options(repos)</code> to enable favourite repositories by default:</p>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a><span class="fu">options</span>(<span class="at">repos =</span> <span class="fu">c</span>(</span>
-<span id="cb13-2"><a></a>  <span class="at">lrioudurand =</span> <span class="st">'https://lrioudurand.r-universe.dev'</span>,</span>
+<span id="cb13-2"><a></a>  <span class="at">WSR =</span> <span class="st">'https://warwick-stats-resources.r-universe.dev'</span>,</span>
 <span id="cb13-3"><a></a>  <span class="at">CRAN =</span> <span class="st">'https://cloud.r-project.org'</span>)</span>
 <span id="cb13-4"><a></a>)</span>
-<span id="cb13-5"><a></a><span class="fu">install.packages</span>(<span class="st">"malt"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-5"><a></a><span class="fu">install.packages</span>(<span class="st">"warwickplots"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <aside class="notes">
-<p>This example chosen because the universe belongs to a member of the Warwick Stats department, Lionel Riou-Durand.</p>
+<p>Give an aside about the warwickplots package</p>
+<p>Note that we need to list CRAN as r-universe packages may have dependencies on CRAN packages.</p>
 <p>To make options persist across sessions, add this code to your .RProfile with <code>usethis::edit_r_profile()</code></p>
 <p>CRAN repo is listed because r-universe package may have dependencies on packages on CRAN.</p>
 <style type="text/css">
@@ -670,15 +671,16 @@ Department of Statistics
 <li><p>Create a repository called <code>&lt;username&gt;.r-universe.dev</code> on the GitHub account for <code>username</code>, e.g.&nbsp;<a href="https://github.com/maelle/maelle.r-universe.dev" class="uri">https://github.com/maelle/maelle.r-universe.dev</a>. The repository must contain a file called <a href="https://github.com/maelle/maelle.r-universe.dev/blob/main/packages.json">packages.json</a> in the standard format, defining at least the <code>package</code> name and git <code>url</code> for the packages you want to include, e.g.</p>
 <pre><code>[
     {
-        "package": "malt",
-        "url": "https://github.com/lrioudurand/malt"
+        "package": "warwickplots",
+        "url": "https://github.com/Warwick-Stats-Resources/warwickplots"
     }
 ]</code></pre></li>
 <li><p>Install the <a href="https://github.com/apps/r-universe/installations/new">r-universe app</a> on the GitHub account that you want to enable. Choose <strong>enable for all repositories</strong> when asked.</p></li>
 </ol>
 </div>
 <aside class="notes">
-<p>Copying the example from the r-universe help page, with the example/links to Maelle, but using the example json from Lionel to be consistent with previous slide.</p>
+<p>Still using <code>maelle</code> in places as shorter that Warwick-Stats-Resources! Also, nice to give a shout-out to her and her role in rOpenSci.</p>
+<p>Copying the example from the r-universe help page, with the example/links to Maelle, but using the example json from WSR to be consistent with previous slide.</p>
 <p>Might be worth pointing out that with actual username, don’t need <code>&lt; &gt;</code></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
